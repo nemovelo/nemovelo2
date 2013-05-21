@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{BD3ED8A8-0551-4356-826F-F072DD2580E6}" Label="" LastModificationDate="1369127745" Name="NemoVelo" Objects="182" Symbols="20" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{BD3ED8A8-0551-4356-826F-F072DD2580E6}" Label="" LastModificationDate="1369137369" Name="NemoVelo" Objects="182" Symbols="20" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -12,7 +12,7 @@
 <a:Code>NemoVelo</a:Code>
 <a:CreationDate>1367870565</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369124721</a:ModificationDate>
+<a:ModificationDate>1369137369</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -5712,144 +5712,8 @@ Shadow=0</a:DisplayPreferences>
 <a:TargetPackagePath>&lt;Modèle&gt;::Modele</a:TargetPackagePath>
 </o:Shortcut>
 </c:Classes>
-<c:Interfaces>
-<o:Interface Id="o163">
-<a:ObjectID>3675CCFE-470B-4DD0-9DEB-76D5B487FAA7</a:ObjectID>
-<a:Name>Composant1</a:Name>
-<a:Code>Composant1</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369123926</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Stereotype>EJBRemote</a:Stereotype>
-<a:UseParentNamespace>0</a:UseParentNamespace>
-<a:Classifier.Abstract>1</a:Classifier.Abstract>
-<a:Imports>import java.util.*;
-import java.rmi.RemoteException;</a:Imports>
-</o:Interface>
-<o:Interface Id="o164">
-<a:ObjectID>E0DFD1E4-80B9-4B32-82D2-3CC438643AAA</a:ObjectID>
-<a:Name>Composant1Local</a:Name>
-<a:Code>Composant1Local</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369123926</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Stereotype>EJBLocal</a:Stereotype>
-<a:UseParentNamespace>0</a:UseParentNamespace>
-<a:Classifier.Abstract>1</a:Classifier.Abstract>
-</o:Interface>
-<o:Interface Id="o165">
-<a:ObjectID>1739C10C-7C4E-4146-92D0-A1186C51BC37</a:ObjectID>
-<a:Name>Composant1Home</a:Name>
-<a:Code>Composant1Home</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369123926</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Stereotype>EJBRemoteHome</a:Stereotype>
-<a:UseParentNamespace>0</a:UseParentNamespace>
-<a:Classifier.Abstract>1</a:Classifier.Abstract>
-<a:Imports>import java.util.*;
-import java.rmi.RemoteException;</a:Imports>
-<c:Operations>
-<o:Operation Id="o166">
-<a:ObjectID>BF19BD91-895F-41C4-B66A-8BB148D10DA6</a:ObjectID>
-<a:Name>findByPrimaryKey</a:Name>
-<a:Code>findByPrimaryKey</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369123926</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Stereotype>EJBFinderMethod</a:Stereotype>
-<a:ReturnType>Composant1</a:ReturnType>
-<a:Operation.Abstract>1</a:Operation.Abstract>
-<a:Operation.Throws>java.rmi.RemoteException, javax.ejb.FinderException</a:Operation.Throws>
-<a:Automatic>1</a:Automatic>
-<c:ObjectReturnType>
-<o:Interface Ref="o163"/>
-</c:ObjectReturnType>
-<c:Parameters>
-<o:Parameter Id="o167">
-<a:ObjectID>D7E10305-F0E2-4CAE-8924-EBD8352247A4</a:ObjectID>
-<a:Name>key</a:Name>
-<a:Code>key</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369124241</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Parameter.DataType>java.lang.Integer</a:Parameter.DataType>
-<a:ParameterType>I</a:ParameterType>
-</o:Parameter>
-</c:Parameters>
-</o:Operation>
-</c:Operations>
-</o:Interface>
-<o:Interface Id="o168">
-<a:ObjectID>079E5499-8AF3-44D3-A2CE-57C41A20E5F2</a:ObjectID>
-<a:Name>Composant1LocalHome</a:Name>
-<a:Code>Composant1LocalHome</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369123926</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Stereotype>EJBLocalHome</a:Stereotype>
-<a:UseParentNamespace>0</a:UseParentNamespace>
-<a:Classifier.Abstract>1</a:Classifier.Abstract>
-<c:Operations>
-<o:Operation Id="o169">
-<a:ObjectID>CC59D763-2053-4E43-BD83-E3A08F4042AA</a:ObjectID>
-<a:Name>findByPrimaryKey</a:Name>
-<a:Code>findByPrimaryKey</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369123926</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Stereotype>EJBFinderMethod</a:Stereotype>
-<a:ReturnType>Composant1Local</a:ReturnType>
-<a:Operation.Abstract>1</a:Operation.Abstract>
-<a:Operation.Throws>javax.ejb.FinderException</a:Operation.Throws>
-<a:Automatic>1</a:Automatic>
-<c:ObjectReturnType>
-<o:Interface Ref="o164"/>
-</c:ObjectReturnType>
-<c:Parameters>
-<o:Parameter Id="o170">
-<a:ObjectID>EF9C510D-53F1-4550-8736-34F76DB8F20D</a:ObjectID>
-<a:Name>key</a:Name>
-<a:Code>key</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369124241</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Parameter.DataType>java.lang.Integer</a:Parameter.DataType>
-<a:ParameterType>I</a:ParameterType>
-</o:Parameter>
-</c:Parameters>
-</o:Operation>
-</c:Operations>
-</o:Interface>
-</c:Interfaces>
-<c:Components>
-<o:Component Id="o171">
-<a:ObjectID>BF7FE296-703A-4DDF-A3F5-30C0EE939A15</a:ObjectID>
-<a:Name>Composant_1</a:Name>
-<a:Code>Composant1</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369124241</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Component.Type>CMP</a:Component.Type>
-<c:Component.Interfaces>
-<o:Interface Ref="o163"/>
-<o:Interface Ref="o164"/>
-<o:Interface Ref="o165"/>
-<o:Interface Ref="o168"/>
-</c:Component.Interfaces>
-</o:Component>
-</c:Components>
 <c:TargetModels>
-<o:TargetModel Id="o172">
+<o:TargetModel Id="o163">
 <a:ObjectID>C0AE178B-5862-4469-A5CE-DCD1703F3C5B</a:ObjectID>
 <a:Name>Java</a:Name>
 <a:Code>Java</a:Code>
@@ -5864,7 +5728,7 @@ import java.rmi.RemoteException;</a:Imports>
 <o:Shortcut Ref="o4"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o173">
+<o:TargetModel Id="o164">
 <a:ObjectID>4BFB9F90-55FA-4A1B-AB71-B9B7785EE3D0</a:ObjectID>
 <a:Name>WSDL for Java</a:Name>
 <a:Code>WSDLJava</a:Code>
@@ -5879,7 +5743,7 @@ import java.rmi.RemoteException;</a:Imports>
 <o:Shortcut Ref="o5"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o174">
+<o:TargetModel Id="o165">
 <a:ObjectID>FC38EB68-32A3-44F5-A0B1-ED297217827B</a:ObjectID>
 <a:Name>NemoVelo</a:Name>
 <a:Code>NEMOVELO</a:Code>
@@ -5894,7 +5758,7 @@ import java.rmi.RemoteException;</a:Imports>
 <o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o175">
+<o:TargetModel Id="o166">
 <a:ObjectID>057F6964-9EFE-4675-A2B3-F1A5B9300E87</a:ObjectID>
 <a:Name>NemoVelo</a:Name>
 <a:Code>NemoVelo</a:Code>
