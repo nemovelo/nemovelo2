@@ -23,11 +23,12 @@ public class Station {
    
    /** Instancie une nouvelle station
     * 
+    * @param idStation Identifiant de la station
     * @param intitule Intitulé de la station
     * @param nbMaxVelo Nombre maximal de vélos que peut accueillir la station
     * @param coordX Coordonnées X de la station
     * @param coordY Coordonnées Y de la station */
-   public Station(String intitule, int nbMaxVelo, int coordX, int coordY) {
+   public Station(int idStation, String intitule, int nbMaxVelo, int coordX, int coordY) {
       // TODO: implement
    }
    

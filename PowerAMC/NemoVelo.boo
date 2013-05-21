@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{BD3ED8A8-0551-4356-826F-F072DD2580E6}" Label="" LastModificationDate="1369127745" Name="NemoVelo" Objects="182" Symbols="20" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{BD3ED8A8-0551-4356-826F-F072DD2580E6}" Label="" LastModificationDate="1369139224" Name="NemoVelo" Objects="186" Symbols="20" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -12,13 +12,13 @@
 <a:Code>NemoVelo</a:Code>
 <a:CreationDate>1367870565</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369124721</a:ModificationDate>
+<a:ModificationDate>1369137606</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
 [FolderOptions\Class Diagram Objects]
 GenerationCheckModel=Yes
-GenerationPath=C:\Users\Simon\Documents\EMA\Projet objet NemoVelo\Java\
+GenerationPath=C:\Users\Simon\Documents\EMA\Projet objet NemoVelo\SVN\trunk\PowerAMC\Code java\
 GenerationOptions=
 GenerationTasks=WSDLJava|WSPackServer[LF]F[LF]WSDLJava|WSPackClient[LF]F[LF]Java|Compile[LF]F[LF]Java|CompileJar[LF]F[LF]Java|CompileRun[LF]F[LF]Java|GenerateJavadoc[LF]F[LF]Java|JarWarEarVerify[LF]F[LF]Java|JarWarEar[LF]F[LF]
 GenerationTargets=WSDLJava[LF]T
@@ -2575,7 +2575,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1369124685</a:CreationDate>
 <a:ModificationDate>1369127741</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-4655,-55242), (19004,-42058))</a:Rect>
+<a:Rect>((-6702,-55243), (21054,-42057))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2667,7 +2667,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1369124720</a:CreationDate>
 <a:ModificationDate>1369127739</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-42178,-62074), (-12805,-39154))</a:Rect>
+<a:Rect>((-42182,-62564), (-12804,-38664))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2690,7 +2690,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1369124720</a:CreationDate>
 <a:ModificationDate>1369127728</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-41118,-21310), (-13826,1616))</a:Rect>
+<a:Rect>((-42161,-21310), (-12783,1616))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2713,7 +2713,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1369124720</a:CreationDate>
 <a:ModificationDate>1369124787</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-41289,3327), (-12607,26252))</a:Rect>
+<a:Rect>((-41482,3327), (-12414,26252))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2736,7 +2736,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:CreationDate>1369124720</a:CreationDate>
 <a:ModificationDate>1369127736</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-41356,-38497), (-16458,-23364))</a:Rect>
+<a:Rect>((-41356,-38984), (-16458,-22877))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -3271,7 +3271,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Code>Station</a:Code>
 <a:CreationDate>1368016223</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369127431</a:ModificationDate>
+<a:ModificationDate>1369137959</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Instancie une nouvelle station</a:Comment>
 <a:Stereotype>Constructor</a:Stereotype>
@@ -3279,6 +3279,18 @@ Shadow=0</a:DisplayPreferences>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
 <o:Parameter Id="o35">
+<a:ObjectID>81A1DC1C-35CA-402D-AFBB-BD63281170FC</a:ObjectID>
+<a:Name>IdStation</a:Name>
+<a:Code>idStation</a:Code>
+<a:CreationDate>1369137941</a:CreationDate>
+<a:Creator>Simon</a:Creator>
+<a:ModificationDate>1369137956</a:ModificationDate>
+<a:Modifier>Simon</a:Modifier>
+<a:Comment>Identifiant de la station</a:Comment>
+<a:Parameter.DataType>int</a:Parameter.DataType>
+<a:ParameterType>I</a:ParameterType>
+</o:Parameter>
+<o:Parameter Id="o36">
 <a:ObjectID>44E8B1AE-02F0-44A1-9E62-3CED7FFFCE4F</a:ObjectID>
 <a:Name>Intitulé</a:Name>
 <a:Code>intitule</a:Code>
@@ -3290,7 +3302,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Parameter.DataType>String</a:Parameter.DataType>
 <a:ParameterType>I</a:ParameterType>
 </o:Parameter>
-<o:Parameter Id="o36">
+<o:Parameter Id="o37">
 <a:ObjectID>55FBA75F-6B4D-4485-A3F2-CE84941EA9C3</a:ObjectID>
 <a:Name>NbMaxVelo</a:Name>
 <a:Code>nbMaxVelo</a:Code>
@@ -3302,7 +3314,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Parameter.DataType>int</a:Parameter.DataType>
 <a:ParameterType>I</a:ParameterType>
 </o:Parameter>
-<o:Parameter Id="o37">
+<o:Parameter Id="o38">
 <a:ObjectID>8F6B29B3-7148-4385-A118-947597BD3713</a:ObjectID>
 <a:Name>CoordX</a:Name>
 <a:Code>coordX</a:Code>
@@ -3314,7 +3326,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Parameter.DataType>int</a:Parameter.DataType>
 <a:ParameterType>I</a:ParameterType>
 </o:Parameter>
-<o:Parameter Id="o38">
+<o:Parameter Id="o39">
 <a:ObjectID>B5C23C80-A744-4FF5-B5A3-8C4D2C0F1D2B</a:ObjectID>
 <a:Name>CoordY</a:Name>
 <a:Code>coordY</a:Code>
@@ -3331,7 +3343,7 @@ Shadow=0</a:DisplayPreferences>
 <o:Class Ref="o28"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o39">
+<o:Operation Id="o40">
 <a:ObjectID>1A1850CA-CD8C-448B-90C0-6C430E6F47E0</a:ObjectID>
 <a:Name>getIdStation</a:Name>
 <a:Code>getIdStation</a:Code>
@@ -3351,7 +3363,7 @@ Shadow=0</a:DisplayPreferences>
 <o:Attribute Ref="o29"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o40">
+<o:Operation Id="o41">
 <a:ObjectID>63BFA2BB-09A0-43BA-AAB3-828F791C311B</a:ObjectID>
 <a:Name>getIntitule</a:Name>
 <a:Code>getIntitule</a:Code>
@@ -3371,7 +3383,7 @@ Shadow=0</a:DisplayPreferences>
 <o:Attribute Ref="o30"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o41">
+<o:Operation Id="o42">
 <a:ObjectID>FBAF7E54-AA88-4C5C-A54B-86E4D05077A8</a:ObjectID>
 <a:Name>setIntitule</a:Name>
 <a:Code>setIntitule</a:Code>
@@ -3385,7 +3397,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o42">
+<o:Parameter Id="o43">
 <a:ObjectID>4259CA31-191A-4C29-80F5-2C83CD06D569</a:ObjectID>
 <a:Name>newIntitulé</a:Name>
 <a:Code>newIntitule</a:Code>
@@ -3402,7 +3414,7 @@ Shadow=0</a:DisplayPreferences>
 <o:Attribute Ref="o30"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o43">
+<o:Operation Id="o44">
 <a:ObjectID>8FDD7FDA-DE49-4656-8923-4086EE33B98A</a:ObjectID>
 <a:Name>getNbMaxVelo</a:Name>
 <a:Code>getNbMaxVelo</a:Code>
@@ -3422,7 +3434,7 @@ Shadow=0</a:DisplayPreferences>
 <o:Attribute Ref="o31"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o44">
+<o:Operation Id="o45">
 <a:ObjectID>A01F465D-5913-4C4C-AD0E-20FC2DB4446B</a:ObjectID>
 <a:Name>setNbMaxVelo</a:Name>
 <a:Code>setNbMaxVelo</a:Code>
@@ -3436,7 +3448,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o45">
+<o:Parameter Id="o46">
 <a:ObjectID>8BBD3BE1-C7AA-4539-ACA3-AD0F8FD2E107</a:ObjectID>
 <a:Name>newNb max velo</a:Name>
 <a:Code>newNbMaxVelo</a:Code>
@@ -3453,7 +3465,7 @@ Shadow=0</a:DisplayPreferences>
 <o:Attribute Ref="o31"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o46">
+<o:Operation Id="o47">
 <a:ObjectID>06E15C4C-48FB-4309-8C38-639767A8D5E5</a:ObjectID>
 <a:Name>getCoordX</a:Name>
 <a:Code>getCoordX</a:Code>
@@ -3469,7 +3481,7 @@ Shadow=0</a:DisplayPreferences>
 <o:Attribute Ref="o32"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o47">
+<o:Operation Id="o48">
 <a:ObjectID>7AF6FD44-D34D-45A4-99C7-C089A03EFB47</a:ObjectID>
 <a:Name>setCoordX</a:Name>
 <a:Code>setCoordX</a:Code>
@@ -3482,7 +3494,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o48">
+<o:Parameter Id="o49">
 <a:ObjectID>E144B485-FF28-4673-BA17-EAE9C8CC1F68</a:ObjectID>
 <a:Name>newCoordX</a:Name>
 <a:Code>newCoordX</a:Code>
@@ -3499,7 +3511,7 @@ Shadow=0</a:DisplayPreferences>
 <o:Attribute Ref="o32"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o49">
+<o:Operation Id="o50">
 <a:ObjectID>0FACA019-A241-4667-BA79-1A2D637628D3</a:ObjectID>
 <a:Name>getCoordY</a:Name>
 <a:Code>getCoordY</a:Code>
@@ -3515,7 +3527,7 @@ Shadow=0</a:DisplayPreferences>
 <o:Attribute Ref="o33"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o50">
+<o:Operation Id="o51">
 <a:ObjectID>323767E4-E31D-4870-9ED0-8D4AE1ABD41A</a:ObjectID>
 <a:Name>setCoordY</a:Name>
 <a:Code>setCoordY</a:Code>
@@ -3528,7 +3540,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o51">
+<o:Parameter Id="o52">
 <a:ObjectID>5F1EA104-4DE5-4EB1-B283-3BE9703E5E29</a:ObjectID>
 <a:Name>newCoordY</a:Name>
 <a:Code>newCoordY</a:Code>
@@ -3545,7 +3557,7 @@ Shadow=0</a:DisplayPreferences>
 <o:Attribute Ref="o33"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o52">
+<o:Operation Id="o53">
 <a:ObjectID>060AF4F8-8C13-4C89-9ACB-A9080AA0ED01</a:ObjectID>
 <a:Name>getVelos</a:Name>
 <a:Code>getVelos</a:Code>
@@ -3560,7 +3572,7 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 </o:Operation>
-<o:Operation Id="o53">
+<o:Operation Id="o54">
 <a:ObjectID>7177CB49-5390-46F4-A156-F2B1D5D9D7D8</a:ObjectID>
 <a:Name>getCountVelos</a:Name>
 <a:Code>getCountVelos</a:Code>
@@ -3575,7 +3587,7 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 </o:Operation>
-<o:Operation Id="o54">
+<o:Operation Id="o55">
 <a:ObjectID>F0D95935-5642-46AA-9E80-911392D8C809</a:ObjectID>
 <a:Name>getVelosByDate</a:Name>
 <a:Code>getVelosByDate</a:Code>
@@ -3590,7 +3602,7 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:Parameters>
-<o:Parameter Id="o55">
+<o:Parameter Id="o56">
 <a:ObjectID>AA4275B6-6FD3-4335-97A4-E5536A2F28B1</a:ObjectID>
 <a:Name>DateDebut</a:Name>
 <a:Code>dateDebut</a:Code>
@@ -3602,7 +3614,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Parameter.DataType>Date</a:Parameter.DataType>
 <a:ParameterType>I</a:ParameterType>
 </o:Parameter>
-<o:Parameter Id="o56">
+<o:Parameter Id="o57">
 <a:ObjectID>375AF1FE-A391-452A-85AC-99BFDD458520</a:ObjectID>
 <a:Name>DateFin</a:Name>
 <a:Code>dateFin</a:Code>
@@ -3618,7 +3630,7 @@ Shadow=0</a:DisplayPreferences>
 </o:Operation>
 </c:Operations>
 </o:Class>
-<o:Class Id="o57">
+<o:Class Id="o58">
 <a:ObjectID>F517B79F-04B3-43E1-AD4A-58EDBB307218</a:ObjectID>
 <a:Name>Client</a:Name>
 <a:Code>Client</a:Code>
@@ -3629,7 +3641,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Comment>Objet définissant les cliens</a:Comment>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o58">
+<o:Attribute Id="o59">
 <a:ObjectID>F63A9B11-B6A6-4AEB-93C7-8515495BCA66</a:ObjectID>
 <a:Name>IdClient</a:Name>
 <a:Code>idClient</a:Code>
@@ -3641,7 +3653,7 @@ Shadow=0</a:DisplayPreferences>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o59">
+<o:Attribute Id="o60">
 <a:ObjectID>C2B4F341-067D-498A-BC2B-30656855ABF5</a:ObjectID>
 <a:Name>Nom</a:Name>
 <a:Code>nom</a:Code>
@@ -3653,7 +3665,7 @@ Shadow=0</a:DisplayPreferences>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o60">
+<o:Attribute Id="o61">
 <a:ObjectID>80513836-F334-447B-A50C-9EEBE244DF10</a:ObjectID>
 <a:Name>Prenom</a:Name>
 <a:Code>prenom</a:Code>
@@ -3665,7 +3677,7 @@ Shadow=0</a:DisplayPreferences>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o61">
+<o:Attribute Id="o62">
 <a:ObjectID>82BEC995-9305-4BEB-86E8-DFA57A96841B</a:ObjectID>
 <a:Name>Date de naissance</a:Name>
 <a:Code>dateDeNaissance</a:Code>
@@ -3677,7 +3689,7 @@ Shadow=0</a:DisplayPreferences>
 <a:DataType>Date</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o62">
+<o:Attribute Id="o63">
 <a:ObjectID>A28FA20C-B123-4D58-985C-A189AEC16248</a:ObjectID>
 <a:Name>Lieu de naissance</a:Name>
 <a:Code>lieuDeNaissance</a:Code>
@@ -3691,20 +3703,32 @@ Shadow=0</a:DisplayPreferences>
 </o:Attribute>
 </c:Attributes>
 <c:Operations>
-<o:Operation Id="o63">
+<o:Operation Id="o64">
 <a:ObjectID>84A31B25-FEE2-4821-ABAA-3CDE4A503392</a:ObjectID>
 <a:Name>Client</a:Name>
 <a:Code>Client</a:Code>
 <a:CreationDate>1369127300</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369127606</a:ModificationDate>
+<a:ModificationDate>1369137935</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Instancite un nouveau client</a:Comment>
 <a:Stereotype>Constructor</a:Stereotype>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o64">
+<o:Parameter Id="o65">
+<a:ObjectID>DCF7AA66-395C-4441-BCAD-A55458F55805</a:ObjectID>
+<a:Name>IdClient</a:Name>
+<a:Code>idClient</a:Code>
+<a:CreationDate>1369137919</a:CreationDate>
+<a:Creator>Simon</a:Creator>
+<a:ModificationDate>1369137932</a:ModificationDate>
+<a:Modifier>Simon</a:Modifier>
+<a:Comment>Identifiant du client</a:Comment>
+<a:Parameter.DataType>int</a:Parameter.DataType>
+<a:ParameterType>I</a:ParameterType>
+</o:Parameter>
+<o:Parameter Id="o66">
 <a:ObjectID>6D933CE6-5766-4BE2-A474-27688B8896D4</a:ObjectID>
 <a:Name>Nom</a:Name>
 <a:Code>nom</a:Code>
@@ -3716,7 +3740,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Parameter.DataType>String</a:Parameter.DataType>
 <a:ParameterType>I</a:ParameterType>
 </o:Parameter>
-<o:Parameter Id="o65">
+<o:Parameter Id="o67">
 <a:ObjectID>7817E268-D2B6-4AEF-965B-9D39948879F2</a:ObjectID>
 <a:Name>Prenom</a:Name>
 <a:Code>prenom</a:Code>
@@ -3728,7 +3752,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Parameter.DataType>String</a:Parameter.DataType>
 <a:ParameterType>I</a:ParameterType>
 </o:Parameter>
-<o:Parameter Id="o66">
+<o:Parameter Id="o68">
 <a:ObjectID>06904DFA-F44E-4110-941E-213F2FE0D9C2</a:ObjectID>
 <a:Name>Date de naissance</a:Name>
 <a:Code>dateDeNaissance</a:Code>
@@ -3740,7 +3764,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Parameter.DataType>Date</a:Parameter.DataType>
 <a:ParameterType>I</a:ParameterType>
 </o:Parameter>
-<o:Parameter Id="o67">
+<o:Parameter Id="o69">
 <a:ObjectID>8A6D0D58-1C36-4EC1-84C1-376645A561CF</a:ObjectID>
 <a:Name>Lieu de naissance</a:Name>
 <a:Code>lieuDeNaissance</a:Code>
@@ -3754,10 +3778,10 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 <c:InfluentObject>
-<o:Class Ref="o57"/>
+<o:Class Ref="o58"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o68">
+<o:Operation Id="o70">
 <a:ObjectID>4D1374CF-89D0-45D3-AAAB-73D54DA9F307</a:ObjectID>
 <a:Name>getIdClient</a:Name>
 <a:Code>getIdClient</a:Code>
@@ -3774,10 +3798,10 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:InfluentObject>
-<o:Attribute Ref="o58"/>
+<o:Attribute Ref="o59"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o69">
+<o:Operation Id="o71">
 <a:ObjectID>5CCCB15B-5DAC-4953-8D88-05E86581138B</a:ObjectID>
 <a:Name>getNom</a:Name>
 <a:Code>getNom</a:Code>
@@ -3794,10 +3818,10 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:InfluentObject>
-<o:Attribute Ref="o59"/>
+<o:Attribute Ref="o60"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o70">
+<o:Operation Id="o72">
 <a:ObjectID>C9AF1EB1-626D-43FF-84A2-8FA72A4FFA5B</a:ObjectID>
 <a:Name>setNom</a:Name>
 <a:Code>setNom</a:Code>
@@ -3811,7 +3835,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o71">
+<o:Parameter Id="o73">
 <a:ObjectID>3EAEFF24-964B-433B-B7CB-64CA147E711F</a:ObjectID>
 <a:Name>newNom</a:Name>
 <a:Code>newNom</a:Code>
@@ -3825,10 +3849,10 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 <c:InfluentObject>
-<o:Attribute Ref="o59"/>
+<o:Attribute Ref="o60"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o72">
+<o:Operation Id="o74">
 <a:ObjectID>4BB55A99-EDC5-4261-B5C5-8812B713108A</a:ObjectID>
 <a:Name>getPrenom</a:Name>
 <a:Code>getPrenom</a:Code>
@@ -3845,10 +3869,10 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:InfluentObject>
-<o:Attribute Ref="o60"/>
+<o:Attribute Ref="o61"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o73">
+<o:Operation Id="o75">
 <a:ObjectID>E09DE549-858E-4DA6-AE57-B30FEBDB10B9</a:ObjectID>
 <a:Name>setPrenom</a:Name>
 <a:Code>setPrenom</a:Code>
@@ -3862,7 +3886,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o74">
+<o:Parameter Id="o76">
 <a:ObjectID>9F351E79-5443-4A13-A9A0-31D89BFE7D64</a:ObjectID>
 <a:Name>newPrenom</a:Name>
 <a:Code>newPrenom</a:Code>
@@ -3876,10 +3900,10 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 <c:InfluentObject>
-<o:Attribute Ref="o60"/>
+<o:Attribute Ref="o61"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o75">
+<o:Operation Id="o77">
 <a:ObjectID>AB27D3BA-238C-4358-A006-C23ED05443C2</a:ObjectID>
 <a:Name>getDateDeNaissance</a:Name>
 <a:Code>getDateDeNaissance</a:Code>
@@ -3896,10 +3920,10 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:InfluentObject>
-<o:Attribute Ref="o61"/>
+<o:Attribute Ref="o62"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o76">
+<o:Operation Id="o78">
 <a:ObjectID>38C99F56-4BF7-46B3-829D-63C8B29CF917</a:ObjectID>
 <a:Name>setDateDeNaissance</a:Name>
 <a:Code>setDateDeNaissance</a:Code>
@@ -3913,7 +3937,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o77">
+<o:Parameter Id="o79">
 <a:ObjectID>C9C1C73C-ABE9-47DE-A55D-AA77EEBF403D</a:ObjectID>
 <a:Name>newDate de naissance</a:Name>
 <a:Code>newDateDeNaissance</a:Code>
@@ -3927,10 +3951,10 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 <c:InfluentObject>
-<o:Attribute Ref="o61"/>
+<o:Attribute Ref="o62"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o78">
+<o:Operation Id="o80">
 <a:ObjectID>88F5D868-462C-48FD-921B-C2AA739ADFC4</a:ObjectID>
 <a:Name>getLieuDeNaissance</a:Name>
 <a:Code>getLieuDeNaissance</a:Code>
@@ -3947,10 +3971,10 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:InfluentObject>
-<o:Attribute Ref="o62"/>
+<o:Attribute Ref="o63"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o79">
+<o:Operation Id="o81">
 <a:ObjectID>732BA296-AA2A-49E7-90F6-21FE212F414F</a:ObjectID>
 <a:Name>setLieuDeNaissance</a:Name>
 <a:Code>setLieuDeNaissance</a:Code>
@@ -3964,7 +3988,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o80">
+<o:Parameter Id="o82">
 <a:ObjectID>B7162223-CC75-4D78-9BBC-87C022F4EA51</a:ObjectID>
 <a:Name>newLieu de naissance</a:Name>
 <a:Code>newLieuDeNaissance</a:Code>
@@ -3978,10 +4002,10 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 <c:InfluentObject>
-<o:Attribute Ref="o62"/>
+<o:Attribute Ref="o63"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o81">
+<o:Operation Id="o83">
 <a:ObjectID>FABAC0C2-7BD6-45FE-BBA1-C0714D50B22E</a:ObjectID>
 <a:Name>getVelosLoues</a:Name>
 <a:Code>getVelosLoues</a:Code>
@@ -3998,7 +4022,7 @@ Shadow=0</a:DisplayPreferences>
 </o:Operation>
 </c:Operations>
 </o:Class>
-<o:Class Id="o82">
+<o:Class Id="o84">
 <a:ObjectID>6A37FF99-9530-4DE4-8600-0BE04E2C4812</a:ObjectID>
 <a:Name>AgentMaintenance</a:Name>
 <a:Code>AgentMaintenance</a:Code>
@@ -4009,7 +4033,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Comment>Objet définissant les agents de maintenance</a:Comment>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o83">
+<o:Attribute Id="o85">
 <a:ObjectID>A60EC887-8033-464C-8583-23FF8A54A6EB</a:ObjectID>
 <a:Name>IdAgent</a:Name>
 <a:Code>idAgent</a:Code>
@@ -4021,7 +4045,7 @@ Shadow=0</a:DisplayPreferences>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o84">
+<o:Attribute Id="o86">
 <a:ObjectID>BE912EE2-0B8A-43D8-8B72-93F198329643</a:ObjectID>
 <a:Name>Nom</a:Name>
 <a:Code>nom</a:Code>
@@ -4033,7 +4057,7 @@ Shadow=0</a:DisplayPreferences>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o85">
+<o:Attribute Id="o87">
 <a:ObjectID>DB1962EF-D082-4A54-B8E2-35A1D3F4A3E4</a:ObjectID>
 <a:Name>Prenom</a:Name>
 <a:Code>prenom</a:Code>
@@ -4045,7 +4069,7 @@ Shadow=0</a:DisplayPreferences>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o86">
+<o:Attribute Id="o88">
 <a:ObjectID>41FE700C-878D-4F9F-9A9B-C68722D5AE70</a:ObjectID>
 <a:Name>Date de naissance</a:Name>
 <a:Code>dateDeNaissance</a:Code>
@@ -4057,7 +4081,7 @@ Shadow=0</a:DisplayPreferences>
 <a:DataType>Date</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o87">
+<o:Attribute Id="o89">
 <a:ObjectID>78CD370A-02C5-4772-9506-0ACDC2F49986</a:ObjectID>
 <a:Name>Lieu de naissance</a:Name>
 <a:Code>lieuDeNaissance</a:Code>
@@ -4071,20 +4095,32 @@ Shadow=0</a:DisplayPreferences>
 </o:Attribute>
 </c:Attributes>
 <c:Operations>
-<o:Operation Id="o88">
+<o:Operation Id="o90">
 <a:ObjectID>282FCF35-BFA2-476C-ABCA-278D05F24EED</a:ObjectID>
 <a:Name>AgentMaintenance</a:Name>
 <a:Code>AgentMaintenance</a:Code>
 <a:CreationDate>1368016586</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369124967</a:ModificationDate>
+<a:ModificationDate>1369137885</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Instancie un agent de maintenance</a:Comment>
 <a:Stereotype>Constructor</a:Stereotype>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o89">
+<o:Parameter Id="o91">
+<a:ObjectID>F22F7A73-89C4-4540-974B-ACD5C8BDA1C0</a:ObjectID>
+<a:Name>IdAgentMaintenance</a:Name>
+<a:Code>idAgentMaintenance</a:Code>
+<a:CreationDate>1369137872</a:CreationDate>
+<a:Creator>Simon</a:Creator>
+<a:ModificationDate>1369137912</a:ModificationDate>
+<a:Modifier>Simon</a:Modifier>
+<a:Comment>Identifiant de l&#39;agent de maintenance</a:Comment>
+<a:Parameter.DataType>int</a:Parameter.DataType>
+<a:ParameterType>I</a:ParameterType>
+</o:Parameter>
+<o:Parameter Id="o92">
 <a:ObjectID>A6A4C27D-C020-455D-B045-2E4BD008C735</a:ObjectID>
 <a:Name>Nom</a:Name>
 <a:Code>nom</a:Code>
@@ -4096,7 +4132,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Parameter.DataType>String</a:Parameter.DataType>
 <a:ParameterType>I</a:ParameterType>
 </o:Parameter>
-<o:Parameter Id="o90">
+<o:Parameter Id="o93">
 <a:ObjectID>2ADF66AF-F2E9-4640-921F-46B39746E157</a:ObjectID>
 <a:Name>Prenom</a:Name>
 <a:Code>prenom</a:Code>
@@ -4108,7 +4144,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Parameter.DataType>String</a:Parameter.DataType>
 <a:ParameterType>I</a:ParameterType>
 </o:Parameter>
-<o:Parameter Id="o91">
+<o:Parameter Id="o94">
 <a:ObjectID>C3792BAF-D6BA-4743-8F7B-64921615AA4F</a:ObjectID>
 <a:Name>Date de naissance</a:Name>
 <a:Code>dateDeNaissance</a:Code>
@@ -4120,7 +4156,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Parameter.DataType>Date</a:Parameter.DataType>
 <a:ParameterType>I</a:ParameterType>
 </o:Parameter>
-<o:Parameter Id="o92">
+<o:Parameter Id="o95">
 <a:ObjectID>C6093B56-92BA-4012-BF15-8D1C6E10C9FB</a:ObjectID>
 <a:Name>Lieu de naissance</a:Name>
 <a:Code>lieuDeNaissance</a:Code>
@@ -4134,10 +4170,10 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 <c:InfluentObject>
-<o:Class Ref="o82"/>
+<o:Class Ref="o84"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o93">
+<o:Operation Id="o96">
 <a:ObjectID>58DD5A7A-6301-4737-B8A2-6440289AFFF6</a:ObjectID>
 <a:Name>getIdAgent</a:Name>
 <a:Code>getIdAgent</a:Code>
@@ -4154,10 +4190,10 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:InfluentObject>
-<o:Attribute Ref="o83"/>
+<o:Attribute Ref="o85"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o94">
+<o:Operation Id="o97">
 <a:ObjectID>3531E88B-8848-4FD8-8051-B978CADCCF9E</a:ObjectID>
 <a:Name>getNom</a:Name>
 <a:Code>getNom</a:Code>
@@ -4174,10 +4210,10 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:InfluentObject>
-<o:Attribute Ref="o84"/>
+<o:Attribute Ref="o86"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o95">
+<o:Operation Id="o98">
 <a:ObjectID>5C445616-B53A-40A9-8FCF-C981F2A9569B</a:ObjectID>
 <a:Name>setNom</a:Name>
 <a:Code>setNom</a:Code>
@@ -4191,7 +4227,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o96">
+<o:Parameter Id="o99">
 <a:ObjectID>ADC1AC5E-A483-4A94-A41C-2B0397EE8414</a:ObjectID>
 <a:Name>newNom</a:Name>
 <a:Code>newNom</a:Code>
@@ -4205,10 +4241,10 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 <c:InfluentObject>
-<o:Attribute Ref="o84"/>
+<o:Attribute Ref="o86"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o97">
+<o:Operation Id="o100">
 <a:ObjectID>964A3A68-76E2-4715-9256-5104D84481D0</a:ObjectID>
 <a:Name>getPrenom</a:Name>
 <a:Code>getPrenom</a:Code>
@@ -4225,10 +4261,10 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:InfluentObject>
-<o:Attribute Ref="o85"/>
+<o:Attribute Ref="o87"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o98">
+<o:Operation Id="o101">
 <a:ObjectID>922CDE9C-A4B5-4646-9397-8B05AF700AE3</a:ObjectID>
 <a:Name>setPrenom</a:Name>
 <a:Code>setPrenom</a:Code>
@@ -4242,7 +4278,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o99">
+<o:Parameter Id="o102">
 <a:ObjectID>B2EAB977-A404-4CDA-B377-9137E4F58693</a:ObjectID>
 <a:Name>newPrenom</a:Name>
 <a:Code>newPrenom</a:Code>
@@ -4256,10 +4292,10 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 <c:InfluentObject>
-<o:Attribute Ref="o85"/>
+<o:Attribute Ref="o87"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o100">
+<o:Operation Id="o103">
 <a:ObjectID>1A96DBFA-FE40-434B-AFC9-5F2AB9F7D87B</a:ObjectID>
 <a:Name>getDateDeNaissance</a:Name>
 <a:Code>getDateDeNaissance</a:Code>
@@ -4276,10 +4312,10 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:InfluentObject>
-<o:Attribute Ref="o86"/>
+<o:Attribute Ref="o88"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o101">
+<o:Operation Id="o104">
 <a:ObjectID>10085368-EBDB-4469-8691-76D9491C1ED0</a:ObjectID>
 <a:Name>setDateDeNaissance</a:Name>
 <a:Code>setDateDeNaissance</a:Code>
@@ -4293,7 +4329,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o102">
+<o:Parameter Id="o105">
 <a:ObjectID>A26B3F8A-3C6D-455D-90F3-00A6C6051E23</a:ObjectID>
 <a:Name>newDate de naissance</a:Name>
 <a:Code>newDateDeNaissance</a:Code>
@@ -4307,10 +4343,10 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 <c:InfluentObject>
-<o:Attribute Ref="o86"/>
+<o:Attribute Ref="o88"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o103">
+<o:Operation Id="o106">
 <a:ObjectID>1FDC34E2-6E0E-46B0-ACE9-ED886A7D2B75</a:ObjectID>
 <a:Name>getLieuDeNaissance</a:Name>
 <a:Code>getLieuDeNaissance</a:Code>
@@ -4327,10 +4363,10 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:InfluentObject>
-<o:Attribute Ref="o87"/>
+<o:Attribute Ref="o89"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o104">
+<o:Operation Id="o107">
 <a:ObjectID>41757045-5791-4052-82AE-036AD4EAF070</a:ObjectID>
 <a:Name>setLieuDeNaissance</a:Name>
 <a:Code>setLieuDeNaissance</a:Code>
@@ -4344,7 +4380,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o105">
+<o:Parameter Id="o108">
 <a:ObjectID>9A452667-C93B-4DBD-9280-5B5388945705</a:ObjectID>
 <a:Name>newLieu de naissance</a:Name>
 <a:Code>newLieuDeNaissance</a:Code>
@@ -4358,10 +4394,10 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 <c:InfluentObject>
-<o:Attribute Ref="o87"/>
+<o:Attribute Ref="o89"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o106">
+<o:Operation Id="o109">
 <a:ObjectID>D1395033-EB5E-43E8-956C-79B59DF1EC01</a:ObjectID>
 <a:Name>getVelosRepares</a:Name>
 <a:Code>getVelosRepares</a:Code>
@@ -4378,7 +4414,7 @@ Shadow=0</a:DisplayPreferences>
 </o:Operation>
 </c:Operations>
 </o:Class>
-<o:Class Id="o107">
+<o:Class Id="o110">
 <a:ObjectID>68B95830-5740-4616-83AA-51D544BF83CA</a:ObjectID>
 <a:Name>Velo</a:Name>
 <a:Code>Velo</a:Code>
@@ -4389,7 +4425,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Comment>Objet définissant les vélos</a:Comment>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o108">
+<o:Attribute Id="o111">
 <a:ObjectID>73F5E27B-29FF-4B1B-AB30-472D5D043E28</a:ObjectID>
 <a:Name>IdVelo</a:Name>
 <a:Code>idVelo</a:Code>
@@ -4401,7 +4437,7 @@ Shadow=0</a:DisplayPreferences>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o109">
+<o:Attribute Id="o112">
 <a:ObjectID>3CAD4223-7A5A-45CB-8CB3-2FC420A8ED5E</a:ObjectID>
 <a:Name>Est fonctionnel</a:Name>
 <a:Code>estFonctionnel</a:Code>
@@ -4413,7 +4449,7 @@ Shadow=0</a:DisplayPreferences>
 <a:DataType>boolean</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o110">
+<o:Attribute Id="o113">
 <a:ObjectID>E24C0ECE-F09C-447C-8759-872D7FDB8FBE</a:ObjectID>
 <a:Name>Date achat</a:Name>
 <a:Code>dateAchat</a:Code>
@@ -4427,20 +4463,32 @@ Shadow=0</a:DisplayPreferences>
 </o:Attribute>
 </c:Attributes>
 <c:Operations>
-<o:Operation Id="o111">
+<o:Operation Id="o114">
 <a:ObjectID>C9CC2F1E-260A-47BE-B915-37DE88617F1A</a:ObjectID>
 <a:Name>Velo</a:Name>
 <a:Code>Velo</a:Code>
 <a:CreationDate>1368016367</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369127531</a:ModificationDate>
+<a:ModificationDate>1369138406</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Instancie un nouveau vélo</a:Comment>
 <a:Stereotype>Constructor</a:Stereotype>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o112">
+<o:Parameter Id="o115">
+<a:ObjectID>6D5C360A-86FA-4989-8FB7-7D349565CB07</a:ObjectID>
+<a:Name>IdVelo</a:Name>
+<a:Code>idVelo</a:Code>
+<a:CreationDate>1369137964</a:CreationDate>
+<a:Creator>Simon</a:Creator>
+<a:ModificationDate>1369137977</a:ModificationDate>
+<a:Modifier>Simon</a:Modifier>
+<a:Comment>Identifiant du vélo</a:Comment>
+<a:Parameter.DataType>int</a:Parameter.DataType>
+<a:ParameterType>I</a:ParameterType>
+</o:Parameter>
+<o:Parameter Id="o116">
 <a:ObjectID>D013FE7B-2619-49D4-ABE7-C7EEDB909EE3</a:ObjectID>
 <a:Name>EstFonctionnel</a:Name>
 <a:Code>estFonctionnel</a:Code>
@@ -4452,7 +4500,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Parameter.DataType>Boolean</a:Parameter.DataType>
 <a:ParameterType>I</a:ParameterType>
 </o:Parameter>
-<o:Parameter Id="o113">
+<o:Parameter Id="o117">
 <a:ObjectID>F04D7DBF-2F65-4734-A1CB-F24CB208858B</a:ObjectID>
 <a:Name>Date achat</a:Name>
 <a:Code>dateAchat</a:Code>
@@ -4466,10 +4514,10 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 <c:InfluentObject>
-<o:Class Ref="o107"/>
+<o:Class Ref="o110"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o114">
+<o:Operation Id="o118">
 <a:ObjectID>ED94A7E9-6900-4E5B-890E-1A1E38E0EB13</a:ObjectID>
 <a:Name>getIdVelo</a:Name>
 <a:Code>getIdVelo</a:Code>
@@ -4486,10 +4534,10 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:InfluentObject>
-<o:Attribute Ref="o108"/>
+<o:Attribute Ref="o111"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o115">
+<o:Operation Id="o119">
 <a:ObjectID>8968EF6D-6A0F-4FDD-8504-610F625E6038</a:ObjectID>
 <a:Name>getEstFonctionnel</a:Name>
 <a:Code>getEstFonctionnel</a:Code>
@@ -4506,10 +4554,10 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:InfluentObject>
-<o:Attribute Ref="o109"/>
+<o:Attribute Ref="o112"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o116">
+<o:Operation Id="o120">
 <a:ObjectID>A861A5D9-8F28-4924-9C15-4E1613C6CCE9</a:ObjectID>
 <a:Name>setEstFonctionnel</a:Name>
 <a:Code>setEstFonctionnel</a:Code>
@@ -4523,7 +4571,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o117">
+<o:Parameter Id="o121">
 <a:ObjectID>E3135212-0499-48D2-8627-9BC2CB3B8A44</a:ObjectID>
 <a:Name>newEst fonctionnel</a:Name>
 <a:Code>newEstFonctionnel</a:Code>
@@ -4536,10 +4584,10 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 <c:InfluentObject>
-<o:Attribute Ref="o109"/>
+<o:Attribute Ref="o112"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o118">
+<o:Operation Id="o122">
 <a:ObjectID>7E70D123-4899-456A-A69D-694ABC243746</a:ObjectID>
 <a:Name>getDateAchat</a:Name>
 <a:Code>getDateAchat</a:Code>
@@ -4556,10 +4604,10 @@ Shadow=0</a:DisplayPreferences>
 
 </a:ExtendedAttributesText>
 <c:InfluentObject>
-<o:Attribute Ref="o110"/>
+<o:Attribute Ref="o113"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o119">
+<o:Operation Id="o123">
 <a:ObjectID>27D15E75-10C1-42CE-BA63-EBE6A8D8DA58</a:ObjectID>
 <a:Name>setDateAchat</a:Name>
 <a:Code>setDateAchat</a:Code>
@@ -4573,7 +4621,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Automatic>1</a:Automatic>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o120">
+<o:Parameter Id="o124">
 <a:ObjectID>E9AF20CB-1F69-46DA-8441-15622E321C7E</a:ObjectID>
 <a:Name>newDate achat</a:Name>
 <a:Code>newDateAchat</a:Code>
@@ -4586,10 +4634,10 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 <c:InfluentObject>
-<o:Attribute Ref="o110"/>
+<o:Attribute Ref="o113"/>
 </c:InfluentObject>
 </o:Operation>
-<o:Operation Id="o121">
+<o:Operation Id="o125">
 <a:ObjectID>05620C60-22DD-40A3-9748-80B03826FD02</a:ObjectID>
 <a:Name>getStation</a:Name>
 <a:Code>getStation</a:Code>
@@ -4621,7 +4669,7 @@ Shadow=0</a:DisplayPreferences>
 <a:Modifier>Simon</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:ClassDiagrams>
-<o:ClassDiagram Id="o122">
+<o:ClassDiagram Id="o126">
 <a:ObjectID>6464A7B3-C72D-4855-8489-9765645EFC56</a:ObjectID>
 <a:Name>DiagrammeClasses_1</a:Name>
 <a:Code>DiagrammeClasses_1</a:Code>
@@ -5041,10 +5089,10 @@ Shadow=0</a:DisplayPreferences>
 </o:ClassDiagram>
 </c:ClassDiagrams>
 <c:DefaultDiagram>
-<o:ClassDiagram Ref="o122"/>
+<o:ClassDiagram Ref="o126"/>
 </c:DefaultDiagram>
 <c:Classes>
-<o:Class Id="o123">
+<o:Class Id="o127">
 <a:ObjectID>E0B3EC4C-C8E9-43F7-A1A4-24EE174501F3</a:ObjectID>
 <a:Name>DAOAgentMaintenance</a:Name>
 <a:Code>DAOAgentMaintenance</a:Code>
@@ -5056,37 +5104,39 @@ Shadow=0</a:DisplayPreferences>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <a:Persistence>T</a:Persistence>
 <c:Operations>
-<o:Operation Id="o124">
+<o:Operation Id="o128">
 <a:ObjectID>2F00EBDA-353F-431C-B490-734798A0B136</a:ObjectID>
 <a:Name>getAllAgentMaintenance</a:Name>
 <a:Code>getAllAgentMaintenance</a:Code>
 <a:CreationDate>1369122645</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369122913</a:ModificationDate>
+<a:ModificationDate>1369138825</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Renvoie la liste de tous les agents de maintenance</a:Comment>
 <a:ReturnType>ArrayList&lt;AgentMaintenance&gt;</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <a:ExtendedAttributesText>{0DEDDB90-46E2-45A0-886E-411709DA0DC9},Java,76={1D4C2EF4-615A-4148-85BD-47ECAC4BD1CC},Javadoc@return,17=La liste d&#39;agents
 
 </a:ExtendedAttributesText>
 </o:Operation>
-<o:Operation Id="o125">
+<o:Operation Id="o129">
 <a:ObjectID>45D4C7A2-1897-4492-B3D4-B7FEF04C7B79</a:ObjectID>
 <a:Name>getAgentMaintenanceById</a:Name>
 <a:Code>getAgentMaintenanceById</a:Code>
 <a:CreationDate>1369122645</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369124256</a:ModificationDate>
+<a:ModificationDate>1369138825</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Renvoie un agent de maintenance en fonction de son identifiant</a:Comment>
 <a:ReturnType>AgentMaintenance</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <a:ExtendedAttributesText>{0DEDDB90-46E2-45A0-886E-411709DA0DC9},Java,74={1D4C2EF4-615A-4148-85BD-47ECAC4BD1CC},Javadoc@return,15=L&#39;agent demandé
 
 </a:ExtendedAttributesText>
 <c:Parameters>
-<o:Parameter Id="o126">
+<o:Parameter Id="o130">
 <a:ObjectID>7CE2F5BE-9081-4966-8DC6-0FCDC6765D89</a:ObjectID>
 <a:Name>IdAgentMaintenance</a:Name>
 <a:Code>idAgentMaintenance</a:Code>
@@ -5100,90 +5150,93 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 </o:Operation>
-<o:Operation Id="o127">
+<o:Operation Id="o131">
 <a:ObjectID>522263F6-2F08-4794-BE21-82B6C9B18FCB</a:ObjectID>
 <a:Name>updateAgentMaintenance</a:Name>
 <a:Code>updateAgentMaintenance</a:Code>
 <a:CreationDate>1369122645</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369122933</a:ModificationDate>
+<a:ModificationDate>1369138825</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Met à jour un agent de maintenance dans la base</a:Comment>
 <a:ReturnType>void</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o128">
+<o:Parameter Id="o132">
 <a:ObjectID>C8E62901-2BFC-4CB6-932A-28F0A8201DED</a:ObjectID>
 <a:Name>agentMaintenance</a:Name>
 <a:Code>agentMaintenance</a:Code>
 <a:CreationDate>1369122645</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369124256</a:ModificationDate>
+<a:ModificationDate>1369139162</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>L&#39;agent de maintenance à mettre à jour</a:Comment>
 <a:WSDLDataType>Velo</a:WSDLDataType>
-<a:Parameter.DataType>Velo</a:Parameter.DataType>
+<a:Parameter.DataType>AgentMaintenance</a:Parameter.DataType>
 <a:ParameterType>I</a:ParameterType>
 </o:Parameter>
 </c:Parameters>
 </o:Operation>
-<o:Operation Id="o129">
+<o:Operation Id="o133">
 <a:ObjectID>BF5C9416-6297-4B7E-A9E8-B28B400722D4</a:ObjectID>
 <a:Name>deleteAgentMaintenance</a:Name>
 <a:Code>deleteAgentMaintenance</a:Code>
 <a:CreationDate>1369122645</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369122964</a:ModificationDate>
+<a:ModificationDate>1369138825</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Supprime un agent de maintenance de la base</a:Comment>
 <a:ReturnType>void</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o130">
+<o:Parameter Id="o134">
 <a:ObjectID>75F2BCF8-9C19-4669-9455-A16D8FB7BD3A</a:ObjectID>
 <a:Name>agentMaintenance</a:Name>
 <a:Code>agentMaintenance</a:Code>
 <a:CreationDate>1369122645</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369124256</a:ModificationDate>
+<a:ModificationDate>1369139206</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>L&#39;agent de maintenance à supprimer</a:Comment>
 <a:WSDLDataType>Velo</a:WSDLDataType>
-<a:Parameter.DataType>Velo</a:Parameter.DataType>
+<a:Parameter.DataType>AgentMaintenance</a:Parameter.DataType>
 <a:ParameterType>I</a:ParameterType>
 </o:Parameter>
 </c:Parameters>
 </o:Operation>
-<o:Operation Id="o131">
+<o:Operation Id="o135">
 <a:ObjectID>98C928CD-2C3D-4D24-A8AF-240D28914B42</a:ObjectID>
 <a:Name>insertAgentMaintenance</a:Name>
 <a:Code>insertAgentMaintenance</a:Code>
 <a:CreationDate>1369122645</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369123000</a:ModificationDate>
+<a:ModificationDate>1369138825</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Insère un nouvel agent de maintenance dans la base</a:Comment>
 <a:ReturnType>void</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o132">
+<o:Parameter Id="o136">
 <a:ObjectID>F153B3BF-FDC8-45A6-A82D-A5D189B947DA</a:ObjectID>
 <a:Name>agentMaintenance</a:Name>
 <a:Code>agentMaintenance</a:Code>
 <a:CreationDate>1369122645</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369124256</a:ModificationDate>
+<a:ModificationDate>1369139224</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>L&#39;agent de maintenance à insérer</a:Comment>
 <a:WSDLDataType>Velo</a:WSDLDataType>
-<a:Parameter.DataType>Velo</a:Parameter.DataType>
+<a:Parameter.DataType>AgentMaintenance</a:Parameter.DataType>
 <a:ParameterType>I</a:ParameterType>
 </o:Parameter>
 </c:Parameters>
 </o:Operation>
 </c:Operations>
 </o:Class>
-<o:Class Id="o133">
+<o:Class Id="o137">
 <a:ObjectID>D94C54FE-FA57-4987-8FAF-39FF8EECBFC6</a:ObjectID>
 <a:Name>DAOClient</a:Name>
 <a:Code>DAOClient</a:Code>
@@ -5195,37 +5248,39 @@ Shadow=0</a:DisplayPreferences>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <a:Persistence>T</a:Persistence>
 <c:Operations>
-<o:Operation Id="o134">
+<o:Operation Id="o138">
 <a:ObjectID>BD494267-B215-4700-8E55-D89B5FC743B6</a:ObjectID>
 <a:Name>getAllClient</a:Name>
 <a:Code>getAllClient</a:Code>
 <a:CreationDate>1369123059</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369123137</a:ModificationDate>
+<a:ModificationDate>1369138868</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Renvoie la liste de tous les clients</a:Comment>
 <a:ReturnType>ArrayList&lt;Client&gt;</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <a:ExtendedAttributesText>{0DEDDB90-46E2-45A0-886E-411709DA0DC9},Java,78={1D4C2EF4-615A-4148-85BD-47ECAC4BD1CC},Javadoc@return,19=La liste de clients
 
 </a:ExtendedAttributesText>
 </o:Operation>
-<o:Operation Id="o135">
+<o:Operation Id="o139">
 <a:ObjectID>DF186155-36F6-4F0E-AC36-183B0A95F66F</a:ObjectID>
 <a:Name>getClientById</a:Name>
 <a:Code>getClientById</a:Code>
 <a:CreationDate>1369123059</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369124280</a:ModificationDate>
+<a:ModificationDate>1369138868</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Renvoie un client en fonction de son identifiant</a:Comment>
 <a:ReturnType>Client</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <a:ExtendedAttributesText>{0DEDDB90-46E2-45A0-886E-411709DA0DC9},Java,76={1D4C2EF4-615A-4148-85BD-47ECAC4BD1CC},Javadoc@return,17=Le client demandé
 
 </a:ExtendedAttributesText>
 <c:Parameters>
-<o:Parameter Id="o136">
+<o:Parameter Id="o140">
 <a:ObjectID>A67901C4-FF32-42FF-8733-B438747C63E1</a:ObjectID>
 <a:Name>IdVelo</a:Name>
 <a:Code>idVelo</a:Code>
@@ -5239,19 +5294,20 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 </o:Operation>
-<o:Operation Id="o137">
+<o:Operation Id="o141">
 <a:ObjectID>A39DF2B7-CEEA-435D-8699-8165BE0DC224</a:ObjectID>
 <a:Name>updateClient</a:Name>
 <a:Code>updateClient</a:Code>
 <a:CreationDate>1369123059</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369123176</a:ModificationDate>
+<a:ModificationDate>1369138868</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Met à jour un client dans la base</a:Comment>
 <a:ReturnType>void</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o138">
+<o:Parameter Id="o142">
 <a:ObjectID>EE48A29C-BF36-4EB6-8BE7-783ACFE1F7B8</a:ObjectID>
 <a:Name>Client</a:Name>
 <a:Code>client</a:Code>
@@ -5266,19 +5322,20 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 </o:Operation>
-<o:Operation Id="o139">
+<o:Operation Id="o143">
 <a:ObjectID>6143FF58-5C54-45D4-8DBB-48B2F58AE29D</a:ObjectID>
 <a:Name>deleteClient</a:Name>
 <a:Code>deleteClient</a:Code>
 <a:CreationDate>1369123059</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369123212</a:ModificationDate>
+<a:ModificationDate>1369138868</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Supprime un client de la base</a:Comment>
 <a:ReturnType>void</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o140">
+<o:Parameter Id="o144">
 <a:ObjectID>20828CA8-D289-48B3-91F7-D6D9174F9A5A</a:ObjectID>
 <a:Name>Client</a:Name>
 <a:Code>client</a:Code>
@@ -5293,19 +5350,20 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 </o:Operation>
-<o:Operation Id="o141">
+<o:Operation Id="o145">
 <a:ObjectID>C5129F87-5BFD-4D8A-82BC-5C1E37C8AEF2</a:ObjectID>
 <a:Name>insertClient</a:Name>
 <a:Code>insertClient</a:Code>
 <a:CreationDate>1369123059</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369123236</a:ModificationDate>
+<a:ModificationDate>1369138868</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Insère un nouveau client dans la base</a:Comment>
 <a:ReturnType>void</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o142">
+<o:Parameter Id="o146">
 <a:ObjectID>982815EA-24C0-4FF8-BBBA-3803ED2A4DA0</a:ObjectID>
 <a:Name>Client</a:Name>
 <a:Code>client</a:Code>
@@ -5322,7 +5380,7 @@ Shadow=0</a:DisplayPreferences>
 </o:Operation>
 </c:Operations>
 </o:Class>
-<o:Class Id="o143">
+<o:Class Id="o147">
 <a:ObjectID>86D8EC4F-B11D-44F9-8039-2D5279BD0E87</a:ObjectID>
 <a:Name>DAOVelo</a:Name>
 <a:Code>DAOVelo</a:Code>
@@ -5334,37 +5392,39 @@ Shadow=0</a:DisplayPreferences>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <a:Persistence>T</a:Persistence>
 <c:Operations>
-<o:Operation Id="o144">
+<o:Operation Id="o148">
 <a:ObjectID>D6E300EE-6B74-4B40-8130-33308097DD5B</a:ObjectID>
 <a:Name>getAllVelo</a:Name>
 <a:Code>getAllVelo</a:Code>
 <a:CreationDate>1369121973</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369122156</a:ModificationDate>
+<a:ModificationDate>1369138882</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Renvoie la liste de tous les vélos</a:Comment>
 <a:ReturnType>ArrayList&lt;Velo&gt;</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <a:ExtendedAttributesText>{0DEDDB90-46E2-45A0-886E-411709DA0DC9},Java,76={1D4C2EF4-615A-4148-85BD-47ECAC4BD1CC},Javadoc@return,17=La liste de vélos
 
 </a:ExtendedAttributesText>
 </o:Operation>
-<o:Operation Id="o145">
+<o:Operation Id="o149">
 <a:ObjectID>D6B5A748-320C-4E0B-A7CC-6529CE13E2B8</a:ObjectID>
 <a:Name>getVeloById</a:Name>
 <a:Code>getVeloById</a:Code>
 <a:CreationDate>1369121973</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369124256</a:ModificationDate>
+<a:ModificationDate>1369138882</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Renvoie un vélo en fonction de son identifiant</a:Comment>
 <a:ReturnType>Velo</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <a:ExtendedAttributesText>{0DEDDB90-46E2-45A0-886E-411709DA0DC9},Java,74={1D4C2EF4-615A-4148-85BD-47ECAC4BD1CC},Javadoc@return,15=Le vélo demandé
 
 </a:ExtendedAttributesText>
 <c:Parameters>
-<o:Parameter Id="o146">
+<o:Parameter Id="o150">
 <a:ObjectID>79992D65-97A3-4B11-9464-6AB7B15CED86</a:ObjectID>
 <a:Name>IdVelo</a:Name>
 <a:Code>idVelo</a:Code>
@@ -5378,19 +5438,20 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 </o:Operation>
-<o:Operation Id="o147">
+<o:Operation Id="o151">
 <a:ObjectID>0495D302-DD23-48B7-AA34-F21148AA463C</a:ObjectID>
 <a:Name>updateVelo</a:Name>
 <a:Code>updateVelo</a:Code>
 <a:CreationDate>1369121973</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369122205</a:ModificationDate>
+<a:ModificationDate>1369138882</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Met à jour un vélo dans la base</a:Comment>
 <a:ReturnType>void</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o148">
+<o:Parameter Id="o152">
 <a:ObjectID>35FD2F7E-B842-4418-A36B-0A747D098527</a:ObjectID>
 <a:Name>velo</a:Name>
 <a:Code>velo</a:Code>
@@ -5405,19 +5466,20 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 </o:Operation>
-<o:Operation Id="o149">
+<o:Operation Id="o153">
 <a:ObjectID>F216E190-8F60-49E4-B277-A323CD206F4C</a:ObjectID>
 <a:Name>deleteVelo</a:Name>
 <a:Code>deleteVelo</a:Code>
 <a:CreationDate>1369121973</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369122239</a:ModificationDate>
+<a:ModificationDate>1369138882</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Supprime un vélo de la base</a:Comment>
 <a:ReturnType>void</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o150">
+<o:Parameter Id="o154">
 <a:ObjectID>238C03A1-BC8F-49CE-B61B-40A345F30AD1</a:ObjectID>
 <a:Name>velo</a:Name>
 <a:Code>velo</a:Code>
@@ -5432,19 +5494,20 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 </o:Operation>
-<o:Operation Id="o151">
+<o:Operation Id="o155">
 <a:ObjectID>FB010687-7FE0-4A97-B2FE-AD2EF1CC8C99</a:ObjectID>
 <a:Name>insertVelo</a:Name>
 <a:Code>insertVelo</a:Code>
 <a:CreationDate>1369121973</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369122264</a:ModificationDate>
+<a:ModificationDate>1369138882</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Insère un nouveau vélo dans la base</a:Comment>
 <a:ReturnType>void</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o152">
+<o:Parameter Id="o156">
 <a:ObjectID>981C0E9A-1520-41D8-88ED-88C3141E8F11</a:ObjectID>
 <a:Name>velo</a:Name>
 <a:Code>velo</a:Code>
@@ -5461,7 +5524,7 @@ Shadow=0</a:DisplayPreferences>
 </o:Operation>
 </c:Operations>
 </o:Class>
-<o:Class Id="o153">
+<o:Class Id="o157">
 <a:ObjectID>2213569D-1F30-4771-A72A-BC037A232EFD</a:ObjectID>
 <a:Name>DAOStation</a:Name>
 <a:Code>DAOStation</a:Code>
@@ -5473,37 +5536,39 @@ Shadow=0</a:DisplayPreferences>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <a:Persistence>T</a:Persistence>
 <c:Operations>
-<o:Operation Id="o154">
+<o:Operation Id="o158">
 <a:ObjectID>EE6BB6AA-F0B3-4E3D-B09C-E144E3059FBC</a:ObjectID>
 <a:Name>getAllStation</a:Name>
 <a:Code>getAllStation</a:Code>
 <a:CreationDate>1369121973</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369122379</a:ModificationDate>
+<a:ModificationDate>1369138876</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Renvoie la liste de toutes les stations</a:Comment>
 <a:ReturnType>ArrayList&lt;Station&gt;</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <a:ExtendedAttributesText>{0DEDDB90-46E2-45A0-886E-411709DA0DC9},Java,79={1D4C2EF4-615A-4148-85BD-47ECAC4BD1CC},Javadoc@return,20=La liste de stations
 
 </a:ExtendedAttributesText>
 </o:Operation>
-<o:Operation Id="o155">
+<o:Operation Id="o159">
 <a:ObjectID>2518E42E-767A-478E-9FCB-F2469E97F160</a:ObjectID>
 <a:Name>getStationById</a:Name>
 <a:Code>getStationById</a:Code>
 <a:CreationDate>1369121973</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369124280</a:ModificationDate>
+<a:ModificationDate>1369138876</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Renvoie une station en fonction de son identifiant</a:Comment>
 <a:ReturnType>Station</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <a:ExtendedAttributesText>{0DEDDB90-46E2-45A0-886E-411709DA0DC9},Java,78={1D4C2EF4-615A-4148-85BD-47ECAC4BD1CC},Javadoc@return,19=La station demandée
 
 </a:ExtendedAttributesText>
 <c:Parameters>
-<o:Parameter Id="o156">
+<o:Parameter Id="o160">
 <a:ObjectID>F3AD3F18-180E-4863-A801-E49415870E90</a:ObjectID>
 <a:Name>IdStation</a:Name>
 <a:Code>idStation</a:Code>
@@ -5517,19 +5582,20 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 </o:Operation>
-<o:Operation Id="o157">
+<o:Operation Id="o161">
 <a:ObjectID>7C921EBB-FCD3-4797-BE95-BD23610A3134</a:ObjectID>
 <a:Name>updateStation</a:Name>
 <a:Code>updateStation</a:Code>
 <a:CreationDate>1369121973</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369122425</a:ModificationDate>
+<a:ModificationDate>1369138876</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Met à jour une station dans la base</a:Comment>
 <a:ReturnType>void</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o158">
+<o:Parameter Id="o162">
 <a:ObjectID>D44E543E-2C1C-4D85-AB42-51127BA2494D</a:ObjectID>
 <a:Name>Station</a:Name>
 <a:Code>station</a:Code>
@@ -5544,19 +5610,20 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 </o:Operation>
-<o:Operation Id="o159">
+<o:Operation Id="o163">
 <a:ObjectID>7DA87B07-50D5-4944-97E6-148C7AD7A402</a:ObjectID>
 <a:Name>deleteStation</a:Name>
 <a:Code>deleteStation</a:Code>
 <a:CreationDate>1369121973</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369122535</a:ModificationDate>
+<a:ModificationDate>1369138876</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Supprime une station de la base</a:Comment>
 <a:ReturnType>void</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o160">
+<o:Parameter Id="o164">
 <a:ObjectID>48EF0174-A1EE-48AD-8CFA-6504D298587F</a:ObjectID>
 <a:Name>Station</a:Name>
 <a:Code>station</a:Code>
@@ -5571,19 +5638,20 @@ Shadow=0</a:DisplayPreferences>
 </o:Parameter>
 </c:Parameters>
 </o:Operation>
-<o:Operation Id="o161">
+<o:Operation Id="o165">
 <a:ObjectID>AB743BF4-0E9C-4AC2-849D-C727E73B102A</a:ObjectID>
 <a:Name>insertStation</a:Name>
 <a:Code>insertStation</a:Code>
 <a:CreationDate>1369121973</a:CreationDate>
 <a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369122598</a:ModificationDate>
+<a:ModificationDate>1369138876</a:ModificationDate>
 <a:Modifier>Simon</a:Modifier>
 <a:Comment>Insère une nouvelle station dans la base</a:Comment>
 <a:ReturnType>void</a:ReturnType>
+<a:Operation.Static>1</a:Operation.Static>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 <c:Parameters>
-<o:Parameter Id="o162">
+<o:Parameter Id="o166">
 <a:ObjectID>0D2DE1D3-74BE-4BFC-B28F-AAAC7B475C58</a:ObjectID>
 <a:Name>Station</a:Name>
 <a:Code>station</a:Code>
@@ -5712,144 +5780,8 @@ Shadow=0</a:DisplayPreferences>
 <a:TargetPackagePath>&lt;Modèle&gt;::Modele</a:TargetPackagePath>
 </o:Shortcut>
 </c:Classes>
-<c:Interfaces>
-<o:Interface Id="o163">
-<a:ObjectID>3675CCFE-470B-4DD0-9DEB-76D5B487FAA7</a:ObjectID>
-<a:Name>Composant1</a:Name>
-<a:Code>Composant1</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369123926</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Stereotype>EJBRemote</a:Stereotype>
-<a:UseParentNamespace>0</a:UseParentNamespace>
-<a:Classifier.Abstract>1</a:Classifier.Abstract>
-<a:Imports>import java.util.*;
-import java.rmi.RemoteException;</a:Imports>
-</o:Interface>
-<o:Interface Id="o164">
-<a:ObjectID>E0DFD1E4-80B9-4B32-82D2-3CC438643AAA</a:ObjectID>
-<a:Name>Composant1Local</a:Name>
-<a:Code>Composant1Local</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369123926</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Stereotype>EJBLocal</a:Stereotype>
-<a:UseParentNamespace>0</a:UseParentNamespace>
-<a:Classifier.Abstract>1</a:Classifier.Abstract>
-</o:Interface>
-<o:Interface Id="o165">
-<a:ObjectID>1739C10C-7C4E-4146-92D0-A1186C51BC37</a:ObjectID>
-<a:Name>Composant1Home</a:Name>
-<a:Code>Composant1Home</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369123926</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Stereotype>EJBRemoteHome</a:Stereotype>
-<a:UseParentNamespace>0</a:UseParentNamespace>
-<a:Classifier.Abstract>1</a:Classifier.Abstract>
-<a:Imports>import java.util.*;
-import java.rmi.RemoteException;</a:Imports>
-<c:Operations>
-<o:Operation Id="o166">
-<a:ObjectID>BF19BD91-895F-41C4-B66A-8BB148D10DA6</a:ObjectID>
-<a:Name>findByPrimaryKey</a:Name>
-<a:Code>findByPrimaryKey</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369123926</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Stereotype>EJBFinderMethod</a:Stereotype>
-<a:ReturnType>Composant1</a:ReturnType>
-<a:Operation.Abstract>1</a:Operation.Abstract>
-<a:Operation.Throws>java.rmi.RemoteException, javax.ejb.FinderException</a:Operation.Throws>
-<a:Automatic>1</a:Automatic>
-<c:ObjectReturnType>
-<o:Interface Ref="o163"/>
-</c:ObjectReturnType>
-<c:Parameters>
-<o:Parameter Id="o167">
-<a:ObjectID>D7E10305-F0E2-4CAE-8924-EBD8352247A4</a:ObjectID>
-<a:Name>key</a:Name>
-<a:Code>key</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369124241</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Parameter.DataType>java.lang.Integer</a:Parameter.DataType>
-<a:ParameterType>I</a:ParameterType>
-</o:Parameter>
-</c:Parameters>
-</o:Operation>
-</c:Operations>
-</o:Interface>
-<o:Interface Id="o168">
-<a:ObjectID>079E5499-8AF3-44D3-A2CE-57C41A20E5F2</a:ObjectID>
-<a:Name>Composant1LocalHome</a:Name>
-<a:Code>Composant1LocalHome</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369123926</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Stereotype>EJBLocalHome</a:Stereotype>
-<a:UseParentNamespace>0</a:UseParentNamespace>
-<a:Classifier.Abstract>1</a:Classifier.Abstract>
-<c:Operations>
-<o:Operation Id="o169">
-<a:ObjectID>CC59D763-2053-4E43-BD83-E3A08F4042AA</a:ObjectID>
-<a:Name>findByPrimaryKey</a:Name>
-<a:Code>findByPrimaryKey</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369123926</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Stereotype>EJBFinderMethod</a:Stereotype>
-<a:ReturnType>Composant1Local</a:ReturnType>
-<a:Operation.Abstract>1</a:Operation.Abstract>
-<a:Operation.Throws>javax.ejb.FinderException</a:Operation.Throws>
-<a:Automatic>1</a:Automatic>
-<c:ObjectReturnType>
-<o:Interface Ref="o164"/>
-</c:ObjectReturnType>
-<c:Parameters>
-<o:Parameter Id="o170">
-<a:ObjectID>EF9C510D-53F1-4550-8736-34F76DB8F20D</a:ObjectID>
-<a:Name>key</a:Name>
-<a:Code>key</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369124241</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Parameter.DataType>java.lang.Integer</a:Parameter.DataType>
-<a:ParameterType>I</a:ParameterType>
-</o:Parameter>
-</c:Parameters>
-</o:Operation>
-</c:Operations>
-</o:Interface>
-</c:Interfaces>
-<c:Components>
-<o:Component Id="o171">
-<a:ObjectID>BF7FE296-703A-4DDF-A3F5-30C0EE939A15</a:ObjectID>
-<a:Name>Composant_1</a:Name>
-<a:Code>Composant1</a:Code>
-<a:CreationDate>1369123900</a:CreationDate>
-<a:Creator>Simon</a:Creator>
-<a:ModificationDate>1369124241</a:ModificationDate>
-<a:Modifier>Simon</a:Modifier>
-<a:Component.Type>CMP</a:Component.Type>
-<c:Component.Interfaces>
-<o:Interface Ref="o163"/>
-<o:Interface Ref="o164"/>
-<o:Interface Ref="o165"/>
-<o:Interface Ref="o168"/>
-</c:Component.Interfaces>
-</o:Component>
-</c:Components>
 <c:TargetModels>
-<o:TargetModel Id="o172">
+<o:TargetModel Id="o167">
 <a:ObjectID>C0AE178B-5862-4469-A5CE-DCD1703F3C5B</a:ObjectID>
 <a:Name>Java</a:Name>
 <a:Code>Java</a:Code>
@@ -5864,7 +5796,7 @@ import java.rmi.RemoteException;</a:Imports>
 <o:Shortcut Ref="o4"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o173">
+<o:TargetModel Id="o168">
 <a:ObjectID>4BFB9F90-55FA-4A1B-AB71-B9B7785EE3D0</a:ObjectID>
 <a:Name>WSDL for Java</a:Name>
 <a:Code>WSDLJava</a:Code>
@@ -5879,7 +5811,7 @@ import java.rmi.RemoteException;</a:Imports>
 <o:Shortcut Ref="o5"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o174">
+<o:TargetModel Id="o169">
 <a:ObjectID>FC38EB68-32A3-44F5-A0B1-ED297217827B</a:ObjectID>
 <a:Name>NemoVelo</a:Name>
 <a:Code>NEMOVELO</a:Code>
@@ -5894,7 +5826,7 @@ import java.rmi.RemoteException;</a:Imports>
 <o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o175">
+<o:TargetModel Id="o170">
 <a:ObjectID>057F6964-9EFE-4675-A2B3-F1A5B9300E87</a:ObjectID>
 <a:Name>NemoVelo</a:Name>
 <a:Code>NemoVelo</a:Code>

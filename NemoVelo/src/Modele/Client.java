@@ -4,7 +4,7 @@
  * Purpose: Defines the Class Client
  ***********************************************************************/
 
-package modele;
+package Modele;
 
 import java.util.*;
 

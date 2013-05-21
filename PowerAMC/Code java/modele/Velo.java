@@ -19,9 +19,10 @@ public class Velo {
    
    /** Instancie un nouveau vélo
     * 
+    * @param idVelo Identifiant du vélo
     * @param estFonctionnel Indicateur de fonctionnalité du vélo
     * @param dateAchat Date d'achat du vélo */
-   public Velo(Boolean estFonctionnel, Date dateAchat) {
+   public Velo(int idVelo, Boolean estFonctionnel, Date dateAchat) {
       // TODO: implement
    }
    

@@ -1,3 +1,9 @@
+﻿/***********************************************************************
+ * Module:  DAOAgentMaintenance.java
+ * Author:  Simon
+ * Purpose: Defines the Class DAOAgentMaintenance
+ ***********************************************************************/
+
 package Modele.DAO;
 
 import java.sql.Date;
@@ -9,17 +15,19 @@ import java.util.ArrayList;
 
 import Modele.AgentMaintenance;
 
+/** Data Access Object d'accès aux agents de maintenance */
 public class DAOAgentMaintenance {
-
-	public static ArrayList<AgentMaintenance> getAllAgentMaintenance() {
-
-		Statement stat;
+   /** Renvoie la liste de tous les agents de maintenance
+    * 
+    * La liste d'agents */
+   public static ArrayList<AgentMaintenance> getAllAgentMaintenance() {
+      Statement stat;
 		ArrayList<AgentMaintenance> agents = new ArrayList<AgentMaintenance>();
 
 		try {
 
 			stat = DAO.getConnection().createStatement();
-			stat.executeUpdate("use nemoagent");
+			stat.executeUpdate("use nemovelo");
 			ResultSet res = stat.executeQuery("select * from AgentMaintenance");
 
 			AgentMaintenance agent;
@@ -52,32 +60,35 @@ public class DAOAgentMaintenance {
 		}
 
 		return agents;
-	}
-
-	public static AgentMaintenance getAgentMaintenanceById(int idAgent) {
-
-		AgentMaintenance agent = null;
+   }
+   
+   /** Renvoie un agent de maintenance en fonction de son identifiant
+    * 
+    * @param idAgentMaintenance Identifiant de l'agent demandé
+    * L'agent demandé */
+   public static AgentMaintenance getAgentMaintenanceById(int idAgentMaintenance) {
+     AgentMaintenance agent = null;
 		Statement stat;
 
 		try {
 
 			stat = DAO.getConnection().createStatement();
-			stat.executeUpdate("use nemoagent");
+			stat.executeUpdate("use nemovelo");
 			ResultSet res = stat
 					.executeQuery("select * from AgentMaintenance where idAgent="
-							+ idAgent);
+							+ idAgentMaintenance);
 
 			String nom, prenom, lieuDeNaissance;
 			Date dateDeNaissance;
 
 			if (res.next()) {
-				idAgent = res.getInt("idAgent");
+				idAgentMaintenance = res.getInt("idAgent");
 				nom = res.getString("nom");
 				prenom = res.getString("prenom");
 				dateDeNaissance = res.getDate("dateDeNaissance");
 				lieuDeNaissance = res.getString("lieuDeNaissance");
 
-				agent = new AgentMaintenance(idAgent, nom, prenom,
+				agent = new AgentMaintenance(idAgentMaintenance, nom, prenom,
 						dateDeNaissance, lieuDeNaissance);
 			}
 		} catch (SQLException e) {
@@ -92,27 +103,28 @@ public class DAOAgentMaintenance {
 		}
 
 		return agent;
-	}
-	
-
-	public static void updateAgentMaintenance(AgentMaintenance agent) {
-
-		PreparedStatement stat;
+   }
+   
+   /** Met à jour un agent de maintenance dans la base
+    * 
+    * @param agentMaintenance L'agent de maintenance à mettre à jour */
+   public static void updateAgentMaintenance(AgentMaintenance agentMaintenance) {
+      PreparedStatement stat;
 		try {
 			stat = DAO.getConnection().prepareStatement(
 					"select * from AgentMaintenance where idAgent=?",
 					ResultSet.TYPE_SCROLL_INSENSITIVE,
 					ResultSet.CONCUR_UPDATABLE);
 
-			stat.setInt(1, agent.getIdAgent());
+			stat.setInt(1, agentMaintenance.getIdAgent());
 			ResultSet res = stat.executeQuery();
 
 			if (res.next()) {
 
-				res.updateString("nom", agent.getNom());
-				res.updateString("prenom", agent.getPrenom());
-				res.updateDate("dateDeNaissance", (Date) agent.getDateDeNaissance());
-				res.updateString("lieuDeNaissance", agent.getLieuDeNaissance());
+				res.updateString("nom", agentMaintenance.getNom());
+				res.updateString("prenom", agentMaintenance.getPrenom());
+				res.updateDate("dateDeNaissance", (Date) agentMaintenance.getDateDeNaissance());
+				res.updateString("lieuDeNaissance", agentMaintenance.getLieuDeNaissance());
 				res.updateRow();
 				
 			}
@@ -127,18 +139,19 @@ public class DAOAgentMaintenance {
 				e = e.getNextException();
 			}
 		}
-
-	}
-
-	public static void deleteAgentMaintenance(AgentMaintenance agent) {
-
-		Statement stat;
+   }
+   
+   /** Supprime un agent de maintenance de la base
+    * 
+    * @param agentMaintenance L'agent de maintenance à supprimer */
+   public static void deleteAgentMaintenance(AgentMaintenance agentMaintenance) {
+      Statement stat;
 		try {
 			
 			stat = DAO.getConnection().createStatement();
 
 			stat.executeUpdate("delete from AgentMaintenance where idAgent="
-					+ agent.getIdAgent());
+					+ agentMaintenance.getIdAgent());
 
 		} catch (SQLException e) {
 
@@ -151,21 +164,22 @@ public class DAOAgentMaintenance {
 				e = e.getNextException();
 			}
 		}
-
-	}
-
-	public static void insertAgentMaintenance(AgentMaintenance agent) {
-
-		PreparedStatement stat;
+   }
+   
+   /** Insère un nouvel agent de maintenance dans la base
+    * 
+    * @param agentMaintenance L'agent de maintenance à insérer */
+   public static void insertAgentMaintenance(AgentMaintenance agentMaintenance) {
+      PreparedStatement stat;
 		try {
 			stat = DAO.getConnection().prepareStatement(
 					"insert into AgentMaintenance (nom,prenom,dateDeNaissance,)lieuDeNaissance values (?,?,?,?)");
 
 			
-			stat.setString(1, agent.getNom());
-			stat.setString(2, agent.getPrenom());
-			stat.setDate(3, (Date) agent.getDateDeNaissance());
-			stat.setString(4, agent.getLieuDeNaissance());
+			stat.setString(1, agentMaintenance.getNom());
+			stat.setString(2, agentMaintenance.getPrenom());
+			stat.setDate(3, (Date) agentMaintenance.getDateDeNaissance());
+			stat.setString(4, agentMaintenance.getLieuDeNaissance());
 			
 			stat.executeUpdate();
 
@@ -181,5 +195,6 @@ public class DAOAgentMaintenance {
 			}
 		}
 
-	}
+   }
+
 }

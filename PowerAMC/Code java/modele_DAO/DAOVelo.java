@@ -13,7 +13,7 @@ public class DAOVelo {
    /** Renvoie la liste de tous les vélos
     * 
     * La liste de vélos */
-   public ArrayList<Velo> getAllVelo() {
+   public static ArrayList<Velo> getAllVelo() {
       // TODO: implement
       return null;
    }
@@ -22,7 +22,7 @@ public class DAOVelo {
     * 
     * @param idVelo Identifiant du vélo demandé
     * Le vélo demandé */
-   public Velo getVeloById(int idVelo) {
+   public static Velo getVeloById(int idVelo) {
       // TODO: implement
       return null;
    }
@@ -30,21 +30,21 @@ public class DAOVelo {
    /** Met à jour un vélo dans la base
     * 
     * @param velo Le vélo à mettre à jour */
-   public void updateVelo(Velo velo) {
+   public static void updateVelo(Velo velo) {
       // TODO: implement
    }
    
    /** Supprime un vélo de la base
     * 
     * @param velo Le vélo à supprimer */
-   public void deleteVelo(Velo velo) {
+   public static void deleteVelo(Velo velo) {
       // TODO: implement
    }
    
    /** Insère un nouveau vélo dans la base
     * 
     * @param velo Le vélo à insérer */
-   public void insertVelo(Velo velo) {
+   public static void insertVelo(Velo velo) {
       // TODO: implement
    }
 

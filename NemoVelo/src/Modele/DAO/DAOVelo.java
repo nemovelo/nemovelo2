@@ -1,3 +1,9 @@
+﻿/***********************************************************************
+ * Module:  DAOVelo.java
+ * Author:  Simon
+ * Purpose: Defines the Class DAOVelo
+ ***********************************************************************/
+
 package Modele.DAO;
 
 import java.sql.Date;
@@ -9,10 +15,13 @@ import java.util.ArrayList;
 
 import Modele.Velo;
 
+/** Data Access Object d'accès aux vélos */
 public class DAOVelo {
-	public static ArrayList<Velo> getAllVelo() {
-
-		Statement stat;
+   /** Renvoie la liste de tous les vélos
+    * 
+    * La liste de vélos */
+   public static ArrayList<Velo> getAllVelo() {
+      Statement stat;
 
 		ArrayList<Velo> velos = new ArrayList<Velo>();
 
@@ -48,11 +57,14 @@ public class DAOVelo {
 		}
 
 		return velos;
-	}
-
-	public static Velo getVeloById(int idVelo) {
-
-		Statement stat;
+   }
+   
+   /** Renvoie un vélo en fonction de son identifiant
+    * 
+    * @param idVelo Identifiant du vélo demandé
+    * Le vélo demandé */
+   public static Velo getVeloById(int idVelo) {
+      Statement stat;
 		Velo velo = null;
 
 		try {
@@ -84,12 +96,13 @@ public class DAOVelo {
 		}
 
 		return velo;
-	}
-	
-
-	public static void updateVelo(Velo velo) {
-
-		PreparedStatement stat;
+   }
+   
+   /** Met à jour un vélo dans la base
+    * 
+    * @param velo Le vélo à mettre à jour */
+   public static void updateVelo(Velo velo) {
+      PreparedStatement stat;
 		try {
 			stat = DAO.getConnection().prepareStatement(
 					"select * from Velo where idVelo=?",
@@ -118,11 +131,13 @@ public class DAOVelo {
 			}
 		}
 
-	}
-
-	public static void deleteVelo(Velo velo) {
-
-		Statement stat;
+   }
+   
+   /** Supprime un vélo de la base
+    * 
+    * @param velo Le vélo à supprimer */
+   public static void deleteVelo(Velo velo) {
+      Statement stat;
 		try {
 			
 			stat = DAO.getConnection().createStatement();
@@ -141,12 +156,13 @@ public class DAOVelo {
 				e = e.getNextException();
 			}
 		}
-
-	}
-
-	public static void insertVelo(Velo velo) {
-
-		PreparedStatement stat;
+   }
+   
+   /** Insère un nouveau vélo dans la base
+    * 
+    * @param velo Le vélo à insérer */
+   public static void insertVelo(Velo velo) {
+      PreparedStatement stat;
 		try {
 			stat = DAO.getConnection().prepareStatement(
 					"insert into Velo (estFonctionnel,dateAchat) values (?,?)");
@@ -167,8 +183,6 @@ public class DAOVelo {
 				e = e.getNextException();
 			}
 		}
+   }
 
-	}
-
-	
 }

@@ -1,5 +1,10 @@
-package Modele.DAO;
+﻿/***********************************************************************
+ * Module:  DAOStation.java
+ * Author:  Simon
+ * Purpose: Defines the Class DAOStation
+ ***********************************************************************/
 
+package Modele.DAO;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -8,15 +13,18 @@ import java.util.ArrayList;
 
 import Modele.Station;
 
+/** Data Access Object d'accès aux stations */
 public class DAOStation {
-
-	public static ArrayList<Station> getAllStation() {
-
-		Statement stat;
+   /** Renvoie la liste de toutes les stations
+    * 
+    * La liste de stations */
+   public static ArrayList<Station> getAllStation() {
+      Statement stat;
 		ArrayList<Station> stations = new ArrayList<Station>();
 		try {
 
 			stat = DAO.getConnection().createStatement();
+			stat.executeUpdate("use nemovelo");
 			ResultSet res = stat.executeQuery("select * from Station");
 
 			Station station;
@@ -47,11 +55,14 @@ public class DAOStation {
 		}
 
 		return stations;
-	}
-
-	public static Station getStationById(int idStation) {
-
-		Statement stat;
+   }
+   
+   /** Renvoie une station en fonction de son identifiant
+    * 
+    * @param idStation L'identifiant de la station demandée
+    * La station demandée */
+   public static Station getStationById(int idStation) {
+      Statement stat;
 		Station station = null;
 		try {
 			stat = DAO.getConnection().createStatement();
@@ -85,11 +96,13 @@ public class DAOStation {
 		}
 
 		return station;
-	}
-
-	public static void updateStation(Station station) {
-
-		PreparedStatement stat;
+   }
+   
+   /** Met à jour une station dans la base
+    * 
+    * @param station La station à mettre à jour */
+   public static void updateStation(Station station) {
+      PreparedStatement stat;
 		try {
 			stat = DAO.getConnection().prepareStatement(
 					"select * from Station where idStation=?",
@@ -119,12 +132,13 @@ public class DAOStation {
 				e = e.getNextException();
 			}
 		}
-
-	}
-
-	public static void deleteStation(Station station) {
-
-		Statement stat;
+   }
+   
+   /** Supprime une station de la base
+    * 
+    * @param station La station à supprimer */
+   public static void deleteStation(Station station) {
+      Statement stat;
 		try {
 			
 			stat = DAO.getConnection().createStatement();
@@ -143,12 +157,13 @@ public class DAOStation {
 				e = e.getNextException();
 			}
 		}
-
-	}
-
-	public static void insertStation(Station station) {
-
-		PreparedStatement stat;
+   }
+   
+   /** Insère une nouvelle station dans la base
+    * 
+    * @param station La station à insérer */
+   public static void insertStation(Station station) {
+      PreparedStatement stat;
 		try {
 			stat = DAO.getConnection().prepareStatement(
 					"insert into Station (intitule,nbMaxVelo,coordX,coordY) values (?,?,?,?)");
@@ -172,6 +187,6 @@ public class DAOStation {
 			}
 		}
 
-	}
+   }
 
 }

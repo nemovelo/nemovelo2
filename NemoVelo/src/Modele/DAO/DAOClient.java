@@ -4,9 +4,11 @@
  * Purpose: Defines the Class DAOClient
  ***********************************************************************/
 
-package modele_DAO;
+package Modele.DAO;
 
 import java.util.*;
+
+import Modele.Client;
 
 /** Data Access Object d'accès clients */
 public class DAOClient {

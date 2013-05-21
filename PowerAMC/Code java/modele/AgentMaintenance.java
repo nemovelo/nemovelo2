@@ -23,11 +23,12 @@ public class AgentMaintenance {
    
    /** Instancie un agent de maintenance
     * 
+    * @param idAgentMaintenance Identifiant de l'agent de maintenance
     * @param nom Nom de l'agent de maintenance
     * @param prenom Prénom de l'agent de maintenance
     * @param dateDeNaissance Date de naissance de l'agent de maintenance
     * @param lieuDeNaissance Lieu de naissance de l'agent de maintenance */
-   public AgentMaintenance(String nom, String prenom, Date dateDeNaissance, String lieuDeNaissance) {
+   public AgentMaintenance(int idAgentMaintenance, String nom, String prenom, Date dateDeNaissance, String lieuDeNaissance) {
       // TODO: implement
    }
    
