@@ -53,9 +53,9 @@ public class MainFrame extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(new BorderLayout(0, 0));
 		
-		JPanel buttons_panel = new JPanel();
-		contentPane.add(buttons_panel, BorderLayout.SOUTH);
-		buttons_panel.setBackground(new Color(240, 230, 140));
+		JPanel buttons_bas = new JPanel();
+		contentPane.add(buttons_bas, BorderLayout.SOUTH);
+		buttons_bas.setBackground(new Color(240, 230, 140));
 		
 		JButton btnAjouterStation = new JButton("Ajouter station");
 		btnAjouterStation.addActionListener(new ActionListener() {
@@ -68,24 +68,17 @@ public class MainFrame extends JFrame {
 		JButton btnSauvegarder = new JButton("Sauvegarder");
 		
 		JButton btnQuitter = new JButton("Quitter");
-		buttons_panel.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
-		buttons_panel.add(btnAjouterStation);
-		buttons_panel.add(btnDtailsDuParc);
-		buttons_panel.add(btnSauvegarder);
-		buttons_panel.add(btnQuitter);
+		buttons_bas.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
+		buttons_bas.add(btnAjouterStation);
+		buttons_bas.add(btnDtailsDuParc);
+		buttons_bas.add(btnSauvegarder);
+		buttons_bas.add(btnQuitter);
 		
-		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
-		tabbedPane.setBorder(null);
-		tabbedPane.setToolTipText("");
-		contentPane.add(tabbedPane, BorderLayout.CENTER);
+		JPanel panel_mid = new JPanel();
+		contentPane.add(panel_mid, BorderLayout.CENTER);
 		
-		JTabbedPane tabbedPane_1 = new JTabbedPane(JTabbedPane.TOP);
-		tabbedPane_1.setBorder(null);
-		tabbedPane.addTab("Carte", null, tabbedPane_1, null);
-		tabbedPane.setEnabledAt(0, true);
-		
-		JTabbedPane tabbedPane_2 = new JTabbedPane(JTabbedPane.TOP);
-		tabbedPane.addTab("New tab", null, tabbedPane_2, null);
+		Canvas canvas = new Canvas();
+		panel_mid.add(canvas);
 	}
 
 }
