@@ -17,12 +17,11 @@ public class Stationnement {
    
    /** Instancie un stationnement
     * 
-    * @param idAgentMaintenance Identifiant de l'agent de maintenance
-    * @param nom Nom de l'agent de maintenance
-    * @param prenom Prénom de l'agent de maintenance
-    * @param dateDeNaissance Date de naissance de l'agent de maintenance
-    * @param lieuDeNaissance Lieu de naissance de l'agent de maintenance */
-   public Stationnement(int idAgentMaintenance, String nom, String prenom, Date dateDeNaissance, String lieuDeNaissance) {
+    * @param idStation Identifiant de la station
+    * @param idVelo Identifiant du vélo
+    * @param dateDeDebut Date de début du stationnement
+    * @param dateDeFin Date de fin du stationnement */
+   public Stationnement(int idStation, int idVelo, Date dateDeDebut, Date dateDeFin) {
       // TODO: implement
    }
    

@@ -61,10 +61,26 @@ public class Velo {
       dateAchat = newDateAchat;
    }
    
-   /** Renvoie la station actuelle du vélo
+   /** Renvoie la liste de sationnements
     * 
-    * La station */
-   public Station getStation() {
+    * La liste de stationnements */
+   public List<Stationnement> getStationnements() {
+      // TODO: implement
+      return null;
+   }
+   
+   /** Renvoie la liste de réparations
+    * 
+    * La liste de réparations */
+   public List<Reparation> getReparations() {
+      // TODO: implement
+      return null;
+   }
+   
+   /** Renvoie la liste de locations
+    * 
+    * La liste de locations */
+   public List<Location> getLocations() {
       // TODO: implement
       return null;
    }

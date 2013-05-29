@@ -16,11 +16,9 @@ public class Reparation {
    /** Instancie une réparation
     * 
     * @param idAgentMaintenance Identifiant de l'agent de maintenance
-    * @param nom Nom de l'agent de maintenance
-    * @param prenom Prénom de l'agent de maintenance
-    * @param dateDeNaissance Date de naissance de l'agent de maintenance
-    * @param lieuDeNaissance Lieu de naissance de l'agent de maintenance */
-   public Reparation(int idAgentMaintenance, String nom, String prenom, Date dateDeNaissance, String lieuDeNaissance) {
+    * @param idVelo Identifiant du vélo
+    * @param dateDeReparation */
+   public Reparation(int idAgentMaintenance, int idVelo, Date dateDeReparation) {
       // TODO: implement
    }
    
@@ -28,6 +26,14 @@ public class Reparation {
     * 
     * L'agent de maintenance */
    public AgentMaintenance getAgentMaintenance() {
+      // TODO: implement
+      return null;
+   }
+   
+   /** Renvoie le vélo concerné par la réparation
+    * 
+    * Le vélo */
+   public Velo getVelo() {
       // TODO: implement
       return null;
    }

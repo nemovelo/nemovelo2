@@ -95,10 +95,10 @@ public class AgentMaintenance {
       lieuDeNaissance = newLieuDeNaissance;
    }
    
-   /** Renvoie une liste des velos que l'agent a réparé
+   /** Renvoie une liste de réparations que l'agent a effectué
     * 
-    * La liste de vélos */
-   public ArrayList<Velo> getVelosRepares() {
+    * La liste de réparations */
+   public ArrayList<Reparation> getReparations() {
       // TODO: implement
       return null;
    }

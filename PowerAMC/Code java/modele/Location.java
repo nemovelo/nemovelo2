@@ -17,12 +17,13 @@ public class Location {
    
    /** Instancie une location
     * 
-    * @param idAgentMaintenance Identifiant de l'agent de maintenance
-    * @param nom Nom de l'agent de maintenance
-    * @param prenom Prénom de l'agent de maintenance
-    * @param dateDeNaissance Date de naissance de l'agent de maintenance
-    * @param lieuDeNaissance Lieu de naissance de l'agent de maintenance */
-   public Location(int idAgentMaintenance, String nom, String prenom, Date dateDeNaissance, String lieuDeNaissance) {
+    * @param idStationDebut Identifiant de la station de départ
+    * @param idStationFin Identifiant de la station d'arrivée
+    * @param idClient Identifiant du client
+    * @param idVelo Identifiant du vélo
+    * @param dateDeDebut 
+    * @param dateDeFin */
+   public Location(int idStationDebut, int idStationFin, int idClient, int idVelo, Date dateDeDebut, Date dateDeFin) {
       // TODO: implement
    }
    

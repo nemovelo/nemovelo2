@@ -85,28 +85,28 @@ public class Station {
       coordY = newCoordY;
    }
    
-   /** Renvoie la liste des vélos actuellement abrités dans la station
+   /** Renvoie la liste des stationnements
     * 
-    * La liste de vélos */
-   public ArrayList<Velo> getVelos() {
+    * La liste des stationnements */
+   public ArrayList<Stationnement> getStationnements() {
       // TODO: implement
       return null;
    }
    
-   /** Renvoie le nombre de vélos actuellement abrités dans la station
+   /** Renvoie la liste des stationnements actuels
     * 
-    * Le nombre de vélos */
-   public int getCountVelos() {
+    * La liste des stationnements actuels */
+   public ArrayList<Stationnement> getStationnementsActuels() {
       // TODO: implement
-      return 0;
+      return null;
    }
    
-   /** Renvoie la liste de vélos que la station abritait entre les dates passées en paramètre
+   /** Renvoie la liste des stationnements entre les dates passées en paramètre
     * 
     * @param dateDebut Date de début à rechercher
     * @param dateFin Date de fin à rechercher
-    * La liste de vélos */
-   public ArrayList<Velo> getVelosByDate(Date dateDebut, Date dateFin) {
+    * La liste des stationnements */
+   public ArrayList<Velo> getStationnementsByDate(Date dateDebut, Date dateFin) {
       // TODO: implement
       return null;
    }
