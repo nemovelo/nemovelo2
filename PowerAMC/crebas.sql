@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* Nom de SGBD :  MySQL 5.0                                     */
-/* Date de création :  21/05/2013 11:58:46                      */
+/* Date de création :  29/05/2013 16:32:03                      */
 /*==============================================================*/
 
 /*
@@ -8,9 +8,9 @@ drop table if exists AgentMaintenance;
 
 drop table if exists Client;
 
-drop index IDX_LOUE on LOUE;
+drop index IDX_LOCATION on Location;
 
-drop table if exists LOUE;
+drop table if exists Location;
 
 drop index IDX_REPARATION on Reparation;
 
@@ -30,10 +30,10 @@ drop table if exists Velo;
 create table AgentMaintenance
 (
    idAgent              int not null auto_increment comment 'Identifiant de l''agent de maintenance',
-   nom                  varchar(254) comment 'Nom de l''agent de maintenance',
-   prenom               varchar(254) comment 'Prenom de l''agent de maintenance',
-   dateDeNaissance      datetime comment 'Date de naissance de l''agent de maintenance',
-   lieuDeNaissance      varchar(254) comment 'Lieu de naissance de l''agent de maintenance',
+   nom                  varchar(40) not null comment 'Nom de l''agent de maintenance',
+   prenom               varchar(40) not null comment 'Prenom de l''agent de maintenance',
+   dateDeNaissance      datetime not null comment 'Date de naissance de l''agent de maintenance',
+   lieuDeNaissance      varchar(150) not null comment 'Lieu de naissance de l''agent de maintenance',
    primary key (idAgent)
 );
 
@@ -45,36 +45,38 @@ alter table AgentMaintenance comment 'Objet définissant les agents de maintenanc
 create table Client
 (
    idClient             int not null auto_increment comment 'Identifiant du client',
-   nom                  varchar(254) comment 'Nom du client',
-   prenom               varchar(254) comment 'Prénom du client',
-   dateDeNaissance      datetime comment 'Date de naissance du client',
-   lieuDeNaissance      varchar(254) comment 'Lieu de naissance du client',
+   nom                  varchar(40) not null comment 'Nom du client',
+   prenom               varchar(40) not null comment 'Prénom du client',
+   dateDeNaissance      datetime not null comment 'Date de naissance du client',
+   lieuDeNaissance      varchar(150) not null comment 'Lieu de naissance du client',
    primary key (idClient)
 );
 
 alter table Client comment 'Objet définissant les cliens';
 
 /*==============================================================*/
-/* Table : LOUE                                                 */
+/* Table : Location                                             */
 /*==============================================================*/
-create table LOUE
+create table Location
 (
-   idStation            int not null comment 'Identifiant de la station',
+   idStationDebut       int not null comment 'Identifiant de la station de départ',
+   idStationFin         int not null comment 'Identifiant de la station d''arrivée',
    idClient             int not null comment 'Identifiant du client',
    idVelo               int not null comment 'Identifiant du vélo',
    dateDeDebut          datetime not null,
    dateDeFin            datetime,
-   primary key (idStation, idClient, idVelo)
+   primary key (idStationDebut, idClient, idVelo, idStationFin)
 );
 
 /*==============================================================*/
-/* Index : IDX_LOUE                                             */
+/* Index : IDX_LOCATION                                         */
 /*==============================================================*/
-create index IDX_LOUE on LOUE
+create index IDX_LOCATION on Location
 (
-   idStation,
+   idStationDebut,
    idClient,
-   idVelo
+   idVelo,
+   idStationFin
 );
 
 /*==============================================================*/
@@ -103,10 +105,10 @@ create index IDX_REPARATION on Reparation
 create table Station
 (
    idStation            int not null auto_increment comment 'Identifiant de la station',
-   intitule             varchar(254) comment 'Intitulé de la station',
-   nbMaxVelo            int comment 'Nombre max de vélos que peut accueillir la station',
-   coordX               int comment 'Coordonnées X de la station',
-   coordY               int comment 'Coordonnées Y de la station',
+   intitule             varchar(150) not null comment 'Intitulé de la station',
+   nbMaxVelo            int not null comment 'Nombre max de vélos que peut accueillir la station',
+   coordX               int not null comment 'Coordonnées X de la station',
+   coordY               int not null comment 'Coordonnées Y de la station',
    primary key (idStation)
 );
 
@@ -146,14 +148,17 @@ create table Velo
 
 alter table Velo comment 'Objet définissant les vélos';
 
-alter table LOUE add constraint FK_LOUE_CLIENT foreign key (idClient)
+alter table Location add constraint FK_LOUE_CLIENT foreign key (idClient)
       references Client (idClient) on delete restrict on update restrict;
 
-alter table LOUE add constraint FK_LOUE_STATION foreign key (idStation)
+alter table Location add constraint FK_LOUE_STATION_DEBUT foreign key (idStationDebut)
       references Station (idStation) on delete restrict on update restrict;
 
-alter table LOUE add constraint FK_LOUE_VELO foreign key (idVelo)
+alter table Location add constraint FK_LOUE_VELO foreign key (idVelo)
       references Velo (idVelo) on delete restrict on update restrict;
+
+alter table Location add constraint FK_LOUE_STATION_FIN foreign key (idStationFin)
+      references Station (idStation) on delete restrict on update restrict;
 
 alter table Reparation add constraint FK_REPARATION_AGENTMAINTENANCE foreign key (idAgent)
       references AgentMaintenance (idAgent) on delete restrict on update restrict;
