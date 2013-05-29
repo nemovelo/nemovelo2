@@ -36,12 +36,13 @@ import javax.swing.border.CompoundBorder;
 import javax.swing.border.BevelBorder;
 import java.awt.Font;
 import javax.swing.JTextField;
+import java.awt.SystemColor;
 
 public class StationFrame extends JFrame {
 
 	private JPanel contentPane;
-	private JTextField textField;
-	private JTextField textField_1;
+	private JTextField TextNbVelos;
+	private JTextField TextNbVelosMax;
 
 	/**
 	 * Launch the application.
@@ -64,18 +65,18 @@ public class StationFrame extends JFrame {
 	 */
 	public StationFrame() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 427, 290);
+		setBounds(100, 100, 427, 271);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(new BorderLayout(0, 0));
 		
 		JPanel panel_btn_stations = new JPanel();
-		panel_btn_stations.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));
-		panel_btn_stations.setBackground(Color.WHITE);
+		panel_btn_stations.setBackground(SystemColor.control);
 		contentPane.add(panel_btn_stations, BorderLayout.SOUTH);
 		
 		JButton btnSuppStation = new JButton("Supprimer la station");
+		btnSuppStation.setBackground(SystemColor.inactiveCaptionBorder);
 		btnSuppStation.setForeground(new Color(0, 0, 128));
 		btnSuppStation.addActionListener(new ActionListener() {
 			
@@ -87,19 +88,15 @@ public class StationFrame extends JFrame {
 			
 			}
 		});
-		
-		JButton btnAjoutVelo = new JButton("Ajouter un/des v\u00E9lo(s)");
-		btnAjoutVelo.setForeground(new Color(0, 0, 139));
+		panel_btn_stations.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
+		panel_btn_stations.add(btnSuppStation);
 		
 		JButton btnValid = new JButton("Sauvegarder");
 		btnValid.setForeground(new Color(0, 128, 0));
+		panel_btn_stations.add(btnValid);
 		
 		JButton btnQuit = new JButton("Annuler");
 		btnQuit.setForeground(new Color(165, 42, 42));
-		panel_btn_stations.setLayout(new GridLayout(0, 2, 0, 0));
-		panel_btn_stations.add(btnAjoutVelo);
-		panel_btn_stations.add(btnSuppStation);
-		panel_btn_stations.add(btnValid);
 		panel_btn_stations.add(btnQuit);
 		
 		JPanel panel_tableau = new JPanel();
@@ -120,14 +117,16 @@ public class StationFrame extends JFrame {
 		lblVlosMaximum.setBounds(35, 120, 201, 16);
 		panel_tableau.add(lblVlosMaximum);
 		
-		textField = new JTextField();
-		textField.setBounds(226, 57, 116, 22);
-		panel_tableau.add(textField);
-		textField.setColumns(10);
+		TextNbVelos = new JTextField();
+		TextNbVelos.setBackground(new Color(255, 255, 255));
+		TextNbVelos.setBounds(226, 57, 116, 22);
+		panel_tableau.add(TextNbVelos);
+		TextNbVelos.setColumns(10);
 		
-		textField_1 = new JTextField();
-		textField_1.setColumns(10);
-		textField_1.setBounds(226, 117, 116, 22);
-		panel_tableau.add(textField_1);
+		TextNbVelosMax = new JTextField();
+		TextNbVelosMax.setToolTipText("");
+		TextNbVelosMax.setColumns(10);
+		TextNbVelosMax.setBounds(226, 117, 116, 22);
+		panel_tableau.add(TextNbVelosMax);
 	}
 }
