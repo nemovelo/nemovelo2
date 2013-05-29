@@ -4,7 +4,7 @@
  * Purpose: Defines the Class DAOAgentMaintenance
  ***********************************************************************/
 
-package Modele_DAO;
+package DAO;
 
 import java.util.*;
 

@@ -4,7 +4,7 @@
  * Purpose: Defines the Class DAOLocation
  ***********************************************************************/
 
-package Modele_DAO;
+package DAO;
 
 import java.util.*;
 
@@ -29,22 +29,22 @@ public class DAOLocation {
    
    /** Met à jour un stationnement dans la base
     * 
-    * @param agentMaintenance L'agent de maintenance à mettre à jour */
-   public static void updateLocation(AgentMaintenance agentMaintenance) {
+    * @param location L'agent de maintenance à mettre à jour */
+   public static void updateLocation(Location location) {
       // TODO: implement
    }
    
    /** Supprime un stationnement de la base
     * 
-    * @param agentMaintenance L'agent de maintenance à supprimer */
-   public static void deleteLocation(AgentMaintenance agentMaintenance) {
+    * @param location L'agent de maintenance à supprimer */
+   public static void deleteLocation(Location location) {
       // TODO: implement
    }
    
    /** Insère un nouveau stationnement dans la base
     * 
-    * @param agentMaintenance L'agent de maintenance à insérer */
-   public static void insertLocation(AgentMaintenance agentMaintenance) {
+    * @param location L'agent de maintenance à insérer */
+   public static void insertLocation(Location location) {
       // TODO: implement
    }
 

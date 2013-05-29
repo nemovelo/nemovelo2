@@ -4,7 +4,7 @@
  * Purpose: Defines the Class DAOStationnement
  ***********************************************************************/
 
-package Modele_DAO;
+package DAO;
 
 import java.util.*;
 
@@ -29,22 +29,22 @@ public class DAOStationnement {
    
    /** Met à jour un stationnement dans la base
     * 
-    * @param agentMaintenance L'agent de maintenance à mettre à jour */
-   public static void updateStationnement(AgentMaintenance agentMaintenance) {
+    * @param stationnement L'agent de maintenance à mettre à jour */
+   public static void updateStationnement(Stationnement stationnement) {
       // TODO: implement
    }
    
    /** Supprime un stationnement de la base
     * 
-    * @param agentMaintenance L'agent de maintenance à supprimer */
-   public static void deleteStationnement(AgentMaintenance agentMaintenance) {
+    * @param stationnement L'agent de maintenance à supprimer */
+   public static void deleteStationnement(Stationnement stationnement) {
       // TODO: implement
    }
    
    /** Insère un nouveau stationnement dans la base
     * 
-    * @param agentMaintenance L'agent de maintenance à insérer */
-   public static void insertStationnement(AgentMaintenance agentMaintenance) {
+    * @param stationnement L'agent de maintenance à insérer */
+   public static void insertStationnement(Stationnement stationnement) {
       // TODO: implement
    }
 

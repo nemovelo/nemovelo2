@@ -1,10 +1,10 @@
-﻿/***********************************************************************
+/***********************************************************************
  * Module:  AgentMaintenance.java
  * Author:  Simon
  * Purpose: Defines the Class AgentMaintenance
  ***********************************************************************/
 
-package modele;
+package Modele;
 
 import java.util.*;
 

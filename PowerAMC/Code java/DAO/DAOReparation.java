@@ -4,7 +4,7 @@
  * Purpose: Defines the Class DAOReparation
  ***********************************************************************/
 
-package Modele_DAO;
+package DAO;
 
 import java.util.*;
 
@@ -29,22 +29,22 @@ public class DAOReparation {
    
    /** Met à jour une réparation dans la base
     * 
-    * @param agentMaintenance L'agent de maintenance à mettre à jour */
-   public static void updateReparation(AgentMaintenance agentMaintenance) {
+    * @param reparation L'agent de maintenance à mettre à jour */
+   public static void updateReparation(Reparation reparation) {
       // TODO: implement
    }
    
    /** Supprime une réparation de la base
     * 
-    * @param agentMaintenance L'agent de maintenance à supprimer */
-   public static void deleteReparation(AgentMaintenance agentMaintenance) {
+    * @param reparation L'agent de maintenance à supprimer */
+   public static void deleteReparation(Reparation reparation) {
       // TODO: implement
    }
    
    /** Insère un nouvelle réparation dans la base
     * 
-    * @param agentMaintenance L'agent de maintenance à insérer */
-   public static void insertReparation(AgentMaintenance agentMaintenance) {
+    * @param reparation L'agent de maintenance à insérer */
+   public static void insertReparation(Reparation reparation) {
       // TODO: implement
    }
 
