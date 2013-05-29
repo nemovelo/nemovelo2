@@ -1,10 +1,10 @@
-﻿/***********************************************************************
+/***********************************************************************
  * Module:  DAOAgentMaintenance.java
  * Author:  Simon
  * Purpose: Defines the Class DAOAgentMaintenance
  ***********************************************************************/
 
-package modele_DAO;
+package Modele_DAO;
 
 import java.util.*;
 
@@ -30,21 +30,21 @@ public class DAOAgentMaintenance {
    /** Met à jour un agent de maintenance dans la base
     * 
     * @param agentMaintenance L'agent de maintenance à mettre à jour */
-   public static void updateAgentMaintenance(Velo agentMaintenance) {
+   public static void updateAgentMaintenance(AgentMaintenance agentMaintenance) {
       // TODO: implement
    }
    
    /** Supprime un agent de maintenance de la base
     * 
     * @param agentMaintenance L'agent de maintenance à supprimer */
-   public static void deleteAgentMaintenance(Velo agentMaintenance) {
+   public static void deleteAgentMaintenance(AgentMaintenance agentMaintenance) {
       // TODO: implement
    }
    
    /** Insère un nouvel agent de maintenance dans la base
     * 
     * @param agentMaintenance L'agent de maintenance à insérer */
-   public static void insertAgentMaintenance(Velo agentMaintenance) {
+   public static void insertAgentMaintenance(AgentMaintenance agentMaintenance) {
       // TODO: implement
    }
 
