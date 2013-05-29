@@ -4,7 +4,7 @@
  * Purpose: Defines the Class DAOStation
  ***********************************************************************/
 
-package Modele.DAO;
+package DAO;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;

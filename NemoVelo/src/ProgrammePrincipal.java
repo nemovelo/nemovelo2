@@ -1,9 +1,9 @@
 import Modele.AgentMaintenance;
 import Modele.Station;
 import Modele.Velo;
-import Modele.DAO.DAOAgentMaintenance;
-import Modele.DAO.DAOStation;
-import Modele.DAO.DAOVelo;
+import DAO.DAOAgentMaintenance;
+import DAO.DAOStation;
+import DAO.DAOVelo;
 
 public class ProgrammePrincipal {
 	public static void main(String[] args) {

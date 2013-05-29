@@ -4,7 +4,7 @@
  * Purpose: Defines the Class DAOVelo
  ***********************************************************************/
 
-package Modele.DAO;
+package DAO;
 
 import java.sql.Date;
 import java.sql.PreparedStatement;

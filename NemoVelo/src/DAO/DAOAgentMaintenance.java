@@ -4,7 +4,7 @@
  * Purpose: Defines the Class DAOAgentMaintenance
  ***********************************************************************/
 
-package Modele.DAO;
+package DAO;
 
 import java.sql.Date;
 import java.sql.PreparedStatement;
