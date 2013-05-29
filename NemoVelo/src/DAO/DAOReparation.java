@@ -8,6 +8,8 @@ package DAO;
 
 import java.util.*;
 
+import Modele.Reparation;
+
 /** Data Access Object d'accès aux réparations */
 public class DAOReparation {
    /** Renvoie la liste de toutes les réparations

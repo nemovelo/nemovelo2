@@ -8,6 +8,8 @@ package DAO;
 
 import java.util.*;
 
+import Modele.Location;
+
 /** Data Access Object d'accès aux locations */
 public class DAOLocation {
    /** Renvoie la liste de tous les stationnements
