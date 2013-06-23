@@ -1,6 +1,7 @@
 package Vue;
 
 import java.awt.BorderLayout;
+import java.awt.Container;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -22,9 +23,11 @@ import java.awt.Canvas;
 import java.awt.Label;
 import javax.swing.JTabbedPane;
 
+import org.openstreetmap.gui.jmapviewer.JMapViewer;
+
 public class MainFrame extends JFrame {
 
-	private JPanel contentPane;
+	private Container contentPane;
 
 	/**
 	 * Launch the application.
@@ -34,6 +37,7 @@ public class MainFrame extends JFrame {
 			public void run() {
 				try {
 					MainFrame frame = new MainFrame();
+					frame.setSize(800, 600);
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -48,10 +52,14 @@ public class MainFrame extends JFrame {
 	public MainFrame() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 800, 600);
-		contentPane = new JPanel();
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		setContentPane(contentPane);
-		contentPane.setLayout(new BorderLayout(0, 0));
+		setSize(800,600);
+		setVisible(true);
+		setResizable(false);
+		//contentPane = new JPanel();
+		contentPane = getContentPane();
+		//contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		//setContentPane(contentPane);
+		//contentPane.setLayout(new BorderLayout(0, 0));
 		
 		JPanel buttons_bas = new JPanel();
 		contentPane.add(buttons_bas, BorderLayout.SOUTH);
@@ -74,11 +82,16 @@ public class MainFrame extends JFrame {
 		buttons_bas.add(btnSauvegarder);
 		buttons_bas.add(btnQuitter);
 		
-		JPanel panel_mid = new JPanel();
-		contentPane.add(panel_mid, BorderLayout.CENTER);
+		//JPanel panel_mid = new JPanel();
+		//panel_mid.add(canvas);
+		//contentPane.add(panel_mid, BorderLayout.CENTER);
 		
-		Canvas canvas = new Canvas();
-		panel_mid.add(canvas);
+		
+		Map m = new Map();
+		m.setSize(800, 600);
+		contentPane.add(m, BorderLayout.CENTER);
+
+		pack();
 	}
 
 }
